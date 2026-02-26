@@ -44,7 +44,10 @@ Build a **research-grade Retrieval-Augmented Generation (RAG)** system with:
 ```bash
 git clone <repo_url>
 cd Phase2
-2️⃣ Create Python Environment
+```
+
+# 2️⃣ Create Python Environment
+```
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -52,7 +55,7 @@ pip install -r requirements.txt
 
 All dependencies are pinned for reproducibility.
 
-3️⃣ Install Local LLM (Ollama Required)
+# 3️⃣ Install Local LLM (Ollama Required)
 
 This project uses a local LLM via Ollama for fully reproducible generation.
 
