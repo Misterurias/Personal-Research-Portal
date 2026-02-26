@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Mac
+.DS_Store
+
+# Logs (optional if you want clean repo)
+# If logs required for grading, do NOT ignore logs/
+# logs/
+
+# Model caches
+.cache/
+*.pt
+*.bin
+
+# Env
+.env
