@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-02-25T22:29:33+00:00",
+  "query": "Compare evidence about skill formation effects with evidence about short-term productivity gains.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_010",
+      "distance_l2": 0.8201301097869873,
+      "text_preview": "aggregate_productivity\nmostly_unchanged_300_per_accepted\nmostly_unchanged_30_per_accepted\nmostly_unchanged_600_per_accepted\nunchanged_120_per_accepted\nshown_per_active_hour\naccepted_char_per_active_hour\naccepted_per_active_hour\nunchanged_30_per_active_hour\nunchanged_120_per_active_hour\naccepted_per_..."
+    },
+    {
+      "rank": 2,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_005",
+      "distance_l2": 0.9501009583473206,
+      "text_preview": " has been associated with worse critical thinking abilities and increased cognitive offloading [Gerlich,\n2025]. Furthermore, knowledge workers reported a lower cognitive effort and confidence when using generative\nAI tools [Lee et al., 2025]. However, these surveys are observational and may not capt..."
+    },
+    {
+      "rank": 3,
+      "source_id": "CopilotExperiment2023",
+      "chunk_id": "CopilotExperiment2023_chunk_007",
+      "distance_l2": 0.9789115190505981,
+      "text_preview": "\nin the United States worked in computer and mathematical occupations,1 a Bureau of Labor\nStatistics category that includes computer programmers, data scientists, and statisticians. These\nworkers earned $464.8 billion or roughly 2% of US GDP. If the results of this study were to be\nextrapolated to t..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_019",
+      "distance_l2": 1.0250701904296875,
+      "text_preview": "7), 1178–1193.\n14.\t Meyer, A.N., Fritz, T., Murphy, G.C., and Zimmermann, \nT. Software developers’ perceptions of productivity. In \nProceedings of the 22nd ACM SIGSOFT Intern. Symp. \non Foundations of Software Engineering (2014), 19–29.\n15.\t Murphy-Hill, E. et al. What predicts software \ndevelopers’..."
+    },
+    {
+      "rank": 5,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_011",
+      "distance_l2": 1.0265393257141113,
+      "text_preview": ", although \nit is beneficial to combine with others \nto get a fuller picture.\nExperience\nTo understand how different types of \ndevelopers interact with Copilot, our \nsurvey asked respondents to self-report \ntheir level of experience in two ways:\n\t\n˲ \"Think of the language you have \nused the most wit..."
+    }
+  ],
+  "answer": "References:\n\n(CopilotCACM2022, CopilotCACM2022_chunk_010)\n(CopilotExperiment2023, CopilotExperiment2023_chunk_007)\n\nAnswer:\nThe evidence suggests that skill formation effects and short-term productivity gains are related but distinct concepts. The study (CopilotCACM2022) shows that the acceptance rate is the most immediate indicator of perceived productivity, although it is beneficial to combine with others to get a fuller picture. In contrast, the study (SkillFormation2026) suggests that generative AI tools have been associated with worse critical thinking abilities and increased cognitive offloading, which may negatively impact skill formation.\n\nInsufficient evidence in the current corpus to directly compare these two concepts. However, the studies suggest that generative AI tools may have both positive (short-term productivity gains) and negative (skill formation effects) impacts on developer productivity.",
+  "citations_found": [
+    [
+      "CopilotCACM2022",
+      "CopilotCACM2022_chunk_010"
+    ],
+    [
+      "CopilotExperiment2023",
+      "CopilotExperiment2023_chunk_007"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

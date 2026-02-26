@@ -1,0 +1,5 @@
+Test_Case_ID,Task,Paper_Title,Authors,Year,Link,Notes
+T1-A,Paper Triage,The Impact of AI on Developer Productivity: Evidence from GitHub Copilot,Various,2023,https://arxiv.org/abs/2302.06590 ,Controlled experiment measuring task completion time and success rate
+T1-B,Paper Triage,How AI Impacts Skill Formation,Various,2026,https://arxiv.org/abs/2601.20245/ ,How AI assistance affects developers’ skill acquisition and conceptual understanding
+T2-A,Claim–Evidence Extraction,The Good and Bad of AI Tools in Novice Programming Education,Various,2024,https://www.mdpi.com/2227-7102/14/10/1089 ,Focuses on novice programmers and learning outcomes
+T2-B,Claim–Evidence Extraction,Measuring GitHub Copilot’s Impact on Productivity,GitHub / Microsoft,2022,https://cacm.acm.org/research/measuring-github-copilots-impact-on-productivity/ ,Industry-style report based on observational and survey data

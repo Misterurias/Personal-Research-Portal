@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-02-25T22:21:57+00:00",
+  "query": "What evidence suggests AI coding assistants reduce productivity in certain contexts?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_004",
+      "distance_l2": 0.6519909501075745,
+      "text_preview": " et al., 2024, Shen and\nGuestrin, 2025]. For example, AI tools are being used in professional domains such as software development,\neducation, design, and the sciences [Handa et al., 2025].\nProductivity Gains\nMany studies have found improvements in productivity using these AI assistants.\nFor example..."
+    },
+    {
+      "rank": 2,
+      "source_id": "CopilotExperiment2023",
+      "chunk_id": "CopilotExperiment2023_chunk_001",
+      "distance_l2": 0.757423996925354,
+      "text_preview": "The Impact of AI on Developer Productivity:\nEvidence from GitHub Copilot\nSida Peng,1∗Eirini Kalliamvakou,2 Peter Cihon,2 Mert Demirer3\n1Microsoft Research, 14820 NE 36th St, Redmond, USA\n2GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, USA\n3MIT Sloan School of Management, 100 Main Street Cambrid..."
+    },
+    {
+      "rank": 3,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_006",
+      "distance_l2": 0.7598369717597961,
+      "text_preview": " than the control group (Peng et al. 2023). Another\nstudy by GitHub reports that the use of Copilot Chat increases programmers’ confidence, with participants\nself-reporting improvements in code readability, reusability, conciseness, maintainability, and resilience\n(Rodriguez 2023). These productivit..."
+    },
+    {
+      "rank": 4,
+      "source_id": "DevExperienceGenAI2025",
+      "chunk_id": "DevExperienceGenAI2025_chunk_019",
+      "distance_l2": 0.7715322971343994,
+      "text_preview": " between tasks where AI was \nperceived as helpful vs not helpful. Comments from the \nworkday documentation and the results from the controlled \nsessions suggest that the elevated cognitive load during AI-\nrelated tasks stems from switching between coding-related \ntasks (e.g., while working on code i..."
+    },
+    {
+      "rank": 5,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_001",
+      "distance_l2": 0.7741812467575073,
+      "text_preview": "CODE-COMPLETION SYSTEMS OFFERING suggestions \nto a developer in their integrated development \nenvironment (IDE) have become the most frequently \nused kind of programmer assistance.1 When \ngenerating whole snippets of code, they typically use \na large language model (LLM) to predict what the user \nmi..."
+    }
+  ],
+  "answer": "What evidence suggests AI coding assistants reduce productivity in certain contexts?\n\nInsufficient evidence in the current corpus to suggest that AI coding assistants consistently reduce productivity in certain contexts. However, some studies have found that excessive or combined use of AI coding assistant interactions can lead to reduced benefits (DevExperienceGenAI2025, DevExperienceGenAI2025_chunk_019).\n\nOn the other hand, many studies have reported productivity gains from using AI coding assistants. For example, Peng et al. found that crowd-sourced software developers using Copilot completed a task 55.8% faster than the control group (CopilotExperiment2023, CopilotExperiment2023_chunk_001). Similarly, Rodriguez found that the use of Copilot Chat increases programmers' confidence and leads to improvements in code readability, reusability, conciseness, maintainability, and resilience (AIProdDecrease2024, AIProdDecrease2024_chunk_006).\n\nReferences:\n\n* DevExperienceGenAI2025: Brandebusemeyer et al. (2026)\n* CopilotExperiment2023: Ziegler et al. (2024)\n* AIProdDecrease2024: Nagle (2019)\n\nNote: The provided evidence chunks suggest that excessive or combined use of AI coding assistant interactions can lead to reduced benefits, but there is insufficient evidence to conclude that AI coding assistants consistently reduce productivity in certain contexts.",
+  "citations_found": [
+    [
+      "DevExperienceGenAI2025",
+      "DevExperienceGenAI2025_chunk_019"
+    ],
+    [
+      "CopilotExperiment2023",
+      "CopilotExperiment2023_chunk_001"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_006"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

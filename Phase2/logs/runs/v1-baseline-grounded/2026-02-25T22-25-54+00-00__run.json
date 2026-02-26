@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-02-25T22:25:54+00:00",
+  "query": "What findings are reported in the EnterpriseImpact2024 study regarding developer productivity?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_004",
+      "distance_l2": 0.6729111671447754,
+      "text_preview": " or the presence of errors or defects [26]. However, Meyer et al. [34]\nconsiders “when software developers perceive themselves to be productive and... unproductive” [34, p.1] as an important\naspect of productivity.\nCheng et al. [11] outline a number of subjective and objective factors that impact de..."
+    },
+    {
+      "rank": 2,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_007",
+      "distance_l2": 0.6984468102455139,
+      "text_preview": " found that \nthe usage metrics we describe in the \nUsage Measurements section  corre­\nsponded similarly to each of the mea­\nsured dimensions of productivity, and \nin turn these dimensions were highly \ncorrelated to each other (Figure 3). We \ntherefore added an aggregate produc­\ntivity score calculat..."
+    },
+    {
+      "rank": 3,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_019",
+      "distance_l2": 0.7125705480575562,
+      "text_preview": "7), 1178–1193.\n14.\t Meyer, A.N., Fritz, T., Murphy, G.C., and Zimmermann, \nT. Software developers’ perceptions of productivity. In \nProceedings of the 22nd ACM SIGSOFT Intern. Symp. \non Foundations of Software Engineering (2014), 19–29.\n15.\t Murphy-Hill, E. et al. What predicts software \ndevelopers’..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_012",
+      "distance_l2": 0.7733184695243835,
+      "text_preview": " However, such \nmeasures are not connected to goals \n(for instance, it is not the goal of a \ndeveloper to write the most lines of \ncode), they may motivate developers to \ngame the system, they do not account \nfor the quality of the output, and they \nare in tension with other metrics (for \nexample, a..."
+    },
+    {
+      "rank": 5,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_002",
+      "distance_l2": 0.8393918871879578,
+      "text_preview": "higher its benefit. The validity of this \nassumption is not obvious when con­\nsidering issues such as whether two \nshort completions are more valuable \nthan one long one, or whether review­\ning suggestions can be detrimental to \nprogramming flow.\nCode completion in IDEs using lan­\nguage models was f..."
+    }
+  ],
+  "answer": "What findings are reported in the EnterpriseImpact2024 study regarding developer productivity?\n\nInsufficient evidence in the current corpus.\n\nThe provided evidence does not mention the EnterpriseImpact2024 study or any specific findings related to developer productivity. The studies mentioned are CopilotCACM2022 and others, but they do not appear to be directly related to the EnterpriseImpact2024 study.\n\nReferences:\n\nNone",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-02-25T22:26:53+00:00",
+  "query": "What evidence exists about AI coding assistants and collaborative open-source development?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_001",
+      "distance_l2": 0.6422761678695679,
+      "text_preview": "The Impact of Generative AI on Collaborative Open-Source Software \nDevelopment: Evidence from GitHub Copilot \n \n        Fangchen Song                                 Ashish Agarwal                                Wen Wen \nUniversity of Texas at Austin      University of Texas at Austin           Univ..."
+    },
+    {
+      "rank": 2,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_009",
+      "distance_l2": 0.6831841468811035,
+      "text_preview": "  \nOpen-source software (OSS) development is characterized by a fully decentralized and open environment, \nwhere a group of voluntary software developers work together to develop and refine code, subsequently \nmaking it accessible to fellow developers and the broader community (Levine and Prietula 2..."
+    },
+    {
+      "rank": 3,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_032",
+      "distance_l2": 0.7817313075065613,
+      "text_preview": " structure, developers are generally not \nassigned with tasks. Instead, they voluntarily select areas in which they wish to contribute. Given that open-\nsource projects often adopt modular architectures and support parallel development (Howison and \nCrowston 2014, Medappa and Srivastava 2019), core ..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CopilotExperiment2023",
+      "chunk_id": "CopilotExperiment2023_chunk_008",
+      "distance_l2": 0.8051615357398987,
+      "text_preview": " al. (2021). Evaluating large language\nmodels trained on code. arXiv preprint arXiv:2107.03374.\n[Finnie-Ansley et al., 2022] Finnie-Ansley, J., Denny, P., Becker, B. A., Luxton-Reilly, A., and\nPrather, J. (2022). The robots are coming: Exploring the implications of openai codex on\nintroductory progr..."
+    },
+    {
+      "rank": 5,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_002",
+      "distance_l2": 0.8239590525627136,
+      "text_preview": " AI tools can not only automate mundane tasks but \nalso enhance original content. In the context of software development, generative AI-powered pair \nprogrammers (i.e., AI pair programmers) like GitHub Copilot, Amazon Q Developer, Google Gemini, and \nChat GPT can swiftly generate code based on devel..."
+    }
+  ],
+  "answer": "What evidence exists about AI coding assistants and collaborative open-source development?\n\nThe study \"The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot\" (OpenSourceImpact2024) provides insights into the effects of AI pair programmers, like GitHub Copilot, on project-level code contributions and coordination time in open-source software (OSS) development.\n\nAccording to the study, the use of AI pair programmers increases project-level code contributions by 5.9% (OpenSourceImpact2024_chunk_001). This gain is driven by a 2.1% increase in individual code contributions and a 3.4% rise in developer coding participation. However, these benefits come at a cost as coordination time for code integration increases by 8% due to more code discussions enabled by AI pair programmers (OpenSourceImpact2024_chunk_001).\n\nThe study also finds that the effects of AI pair programmers differ across developer roles. Peripheral developers show relatively smaller gains in project-level code contributions and face a higher increase in coordination time than core developers, likely due to their difference in project familiarity (OpenSourceImpact2024_chunk_032).",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

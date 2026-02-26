@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-02-25T22:23:00+00:00",
+  "query": "How do AI coding assistants affect junior versus experienced developers differently?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_034",
+      "distance_l2": 0.7776898145675659,
+      "text_preview": "ver effects enabled by AI pair programmers. \n 36 \nSecond, our work represents the first step in examining how generative AI affects core and \nperipheral developers differently. We acknowledge that beyond different levels of project familiarity, \ndevelopers may differ in motivation, ability, and pref..."
+    },
+    {
+      "rank": 2,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.8060398697853088,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    },
+    {
+      "rank": 3,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_002",
+      "distance_l2": 0.8072062730789185,
+      "text_preview": " workers. As humans rely on AI for skills such as brainstorming,\nwriting, and general critical thinking, the development of these skills may be significantly altered depending\non how AI assistance is used.\nSoftware engineering, in particular, has been identified as a profession in which AI tools can..."
+    },
+    {
+      "rank": 4,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_006",
+      "distance_l2": 0.8149572610855103,
+      "text_preview": " code, fix\nerrors, and explain algorithmic concepts; students with less coding proficiency were more likely to seek AI\nassistance. Other works use surveys to find that students may be hesitant to use AI coding assistant tools\ndue to “dependence worry” (i.e., overreliance on coding tools) [Pan et al...."
+    },
+    {
+      "rank": 5,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_014",
+      "distance_l2": 0.8199715614318848,
+      "text_preview": " 23.7% and a total increase in critical severity of 89%. We also demonstrate \nthat some dimensions of code quality are improved with AI-assisted code generation tools (i.e., \nmaintainability, cyclomatic complexity) but caution is warranted with operational risks, to code itself (i.e. \nextra code dup..."
+    }
+  ],
+  "answer": "How do AI coding assistants affect junior versus experienced developers differently?\n\nAccording to the evidence, AI-assisted code generation tools can have different impacts on junior and experienced developers. For example, junior developers may benefit more from AI assistance in terms of productivity improvements, but they may also rely too heavily on AI and experience decreased skill formation (SkillFormation2026_chunk_002). On the other hand, experienced developers may be able to use AI tools more independently and effectively, as seen in their higher acceptance rate of AI recommendations compared to junior developers (EmpiricalToolAnalysis2025_chunk_010).\n\nIn terms of learning patterns, novice workers may complete tasks without the same learning outcomes when using AI assistance (Figure 2). This suggests that AI may not necessarily lead to long-term skill development for junior developers.\n\nReferences:\n(SkillFormation2026, SkillFormation2026_chunk_002)\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)",
+  "citations_found": [
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_002"
+    ],
+    [
+      "EmpiricalToolAnalysis2025",
+      "EmpiricalToolAnalysis2025_chunk_010"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

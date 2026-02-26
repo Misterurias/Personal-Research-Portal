@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-02-26T20:04:34+00:00",
+  "query": "What impact do AI coding assistants have on code quality?",
+  "retrieval_query": "Impact of AI coding assistants on code quality.",
+  "query_rewritten": true,
+  "rewritten_query": "Impact of AI coding assistants on code quality.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_023",
+      "distance_l2": 0.7027324438095093,
+      "text_preview": " vs. experience: Evaluating the usability of code generation tools\npowered by large language models. In Chi conference on human factors in computing systems extended abstracts. 1–7.\n[51] Dakuo Wang, Justin D Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulow..."
+    },
+    {
+      "rank": 2,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_001",
+      "distance_l2": 0.7332595586776733,
+      "text_preview": "International Journal for Multidisciplinary Research (IJFMR) \n \nE-ISSN: 2582-2160   ●   Website: www.ijfmr.com       ●   Email: editor@ijfmr.com \n \nIJFMR250661350 \nVolume 7, Issue 6, November-December 2025 \n1\n \nEmpirical Analysis of AI-Assisted Code \nGeneration Tools: Impact on Code Quality, \nSecuri..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_001",
+      "distance_l2": 0.7352527379989624,
+      "text_preview": "Examining the Use and Impact of an AI Code Assistant on Developer\nProductivity and Experience in the Enterprise\nJUSTIN D. WEISZ, IBM Research, USA\nSHRADDHA KUMAR∗, Cisco Systems, Inc., India\nMICHAEL MULLER, IBM Research, USA\nKAREN-ELLEN BROWNE, IBM Software, Ireland\nARIELLE GOLDBERG, IBM Infrastruct..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CodeQualityComparison2023",
+      "chunk_id": "CodeQualityComparison2023_chunk_001",
+      "distance_l2": 0.7362462878227234,
+      "text_preview": "Noname manuscript No.\n(will be inserted by the editor)\nEvaluating the Code Quality of AI-Assisted Code\nGeneration Tools: An Empirical Study on GitHub Copilot,\nAmazon CodeWhisperer, and ChatGPT\nBurak Yetiştiren · Işık Özsoy · Miray\nAyerdem · Eray Tüzün\nthe date of receipt and acceptance should be ins..."
+    },
+    {
+      "rank": 5,
+      "source_id": "DevExperienceGenAI2025",
+      "chunk_id": "DevExperienceGenAI2025_chunk_028",
+      "distance_l2": 0.7374346852302551,
+      "text_preview": ", Tianyi Zhang, and Elena L. Glassman. 2022. \nExpectation vs. Experience: Evaluating the Usability of Code Generation \nTools Powered by Large Language Models. In CHI Conference on Human \nFactors in Computing Systems Extended Abstracts (CHI ’22 Extended \nAbstracts), \nApril \n27, \n2022. \nACM, \nNew \nYor..."
+    }
+  ],
+  "answer": "What impact do AI coding assistants have on code quality?\n\nThe provided evidence suggests that AI coding assistants can have both positive and negative impacts on code quality.\n\nAccording to (EmpiricalToolAnalysis2025, EnterpriseImpact2024_chunk_001), the use of AI-assisted code generation tools led to a 31.4% increase in average developer productivity, but it also introduced 23.7% more security vulnerabilities in the generated codes. The study found that Python was the programming language that realized the highest quality improvement (26.3%), while C++ faced the most security risk increase (34.8%).\n\nAnother study (CodeQualityComparison2023_chunk_001) compared the performance of GitHub Copilot, Amazon CodeWhisperer, and ChatGPT in terms of code quality metrics such as Code Validity, Code Correctness, Code Security, Code Reliability, and Code Maintainability. The results showed that the latest versions of these tools generated correct code 65.2%, 46.3%, and 31.1% of the time, respectively.\n\nIn contrast, another study (EnterpriseImpact2024_chunk_001) found that AI assistants powered by large language models can have varying effects on developer productivity and experience. While some developers experienced net productivity increases, others did not.\n\nReferences:\n\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_023)\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_001)\n(CodeQualityComparison2023, CodeQualityComparison2023_chunk_001)",
+  "citations_found": [
+    [
+      "EmpiricalToolAnalysis2025",
+      "EnterpriseImpact2024_chunk_001"
+    ],
+    [
+      "EnterpriseImpact2024",
+      "EnterpriseImpact2024_chunk_023"
+    ],
+    [
+      "EmpiricalToolAnalysis2025",
+      "EmpiricalToolAnalysis2025_chunk_001"
+    ],
+    [
+      "CodeQualityComparison2023",
+      "CodeQualityComparison2023_chunk_001"
+    ]
+  ],
+  "citations_valid": false,
+  "invalid_citations": [
+    [
+      "EmpiricalToolAnalysis2025",
+      "EnterpriseImpact2024_chunk_001"
+    ]
+  ],
+  "references_consistent": false,
+  "references_issue": "Inline citations missing from References: [('EmpiricalToolAnalysis2025', 'EnterpriseImpact2024_chunk_001')]",
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

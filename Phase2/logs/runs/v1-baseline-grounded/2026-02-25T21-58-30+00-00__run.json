@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-02-25T21:58:30+00:00",
+  "query": "What evidence suggests AI coding assistants affect developer productivity, and in what direction?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_004",
+      "distance_l2": 0.6474248170852661,
+      "text_preview": " or the presence of errors or defects [26]. However, Meyer et al. [34]\nconsiders “when software developers perceive themselves to be productive and... unproductive” [34, p.1] as an important\naspect of productivity.\nCheng et al. [11] outline a number of subjective and objective factors that impact de..."
+    },
+    {
+      "rank": 2,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_004",
+      "distance_l2": 0.6859084367752075,
+      "text_preview": " et al., 2024, Shen and\nGuestrin, 2025]. For example, AI tools are being used in professional domains such as software development,\neducation, design, and the sciences [Handa et al., 2025].\nProductivity Gains\nMany studies have found improvements in productivity using these AI assistants.\nFor example..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.6995745897293091,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    },
+    {
+      "rank": 4,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_001",
+      "distance_l2": 0.7023683786392212,
+      "text_preview": "Examining the Use and Impact of an AI Code Assistant on Developer\nProductivity and Experience in the Enterprise\nJUSTIN D. WEISZ, IBM Research, USA\nSHRADDHA KUMAR∗, Cisco Systems, Inc., India\nMICHAEL MULLER, IBM Research, USA\nKAREN-ELLEN BROWNE, IBM Software, Ireland\nARIELLE GOLDBERG, IBM Infrastruct..."
+    },
+    {
+      "rank": 5,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_001",
+      "distance_l2": 0.7065206170082092,
+      "text_preview": "CODE-COMPLETION SYSTEMS OFFERING suggestions \nto a developer in their integrated development \nenvironment (IDE) have become the most frequently \nused kind of programmer assistance.1 When \ngenerating whole snippets of code, they typically use \na large language model (LLM) to predict what the user \nmi..."
+    }
+  ],
+  "answer": "What evidence suggests AI coding assistants affect developer productivity, and in what direction?\n\nThe provided evidence suggests that AI coding assistants can have a positive impact on developer productivity. Specifically:\n\n* (EnterpriseImpact2024, EnterpriseImpact2024_chunk_001) states that the Watsonx Code Assistant (WCA) increased developers' perceptions of productivity by 31.4%.\n* (CopilotCACM2022, CopilotCACM2022_chunk_001) reports that GitHub Copilot's suggestions have a big impact on developer productivity, with junior developers seeing the largest gains.\n* (SkillFormation2026, SkillFormation2026_chunk_004) notes that AI tools are being used in software development and education, and that many studies have found improvements in productivity using these assistants.\n\nIn terms of direction, the evidence suggests that AI coding assistants can increase developer productivity. However, it is also noted that there may be potential security and maintainability trade-offs associated with using AI-assisted code generation.\n\nReferences:\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_001)\n(CopilotCACM2022, CopilotCACM2022_chunk_001)\n(SkillFormation2026, SkillFormation2026_chunk_004)",
+  "citations_found": [
+    [
+      "EnterpriseImpact2024",
+      "EnterpriseImpact2024_chunk_001"
+    ],
+    [
+      "CopilotCACM2022",
+      "CopilotCACM2022_chunk_001"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_004"
+    ],
+    [
+      "EnterpriseImpact2024",
+      "EnterpriseImpact2024_chunk_001"
+    ],
+    [
+      "CopilotCACM2022",
+      "CopilotCACM2022_chunk_001"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_004"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-02-25T22:28:17+00:00",
+  "query": "Compare the enterprise field study and the controlled Copilot experiment. Where do they agree and where do they differ?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_014",
+      "distance_l2": 1.1359248161315918,
+      "text_preview": "\nficiency positively predicts developers \nagreeing that Copilot helps them stay \nin the flow, focus on more satisfying \nwork, spend less effort on repetitive \ntasks, and perform repetitive tasks \nfaster. Years of experience negatively \npredicts developers feeling less frus­\ntrated in coding sessions..."
+    },
+    {
+      "rank": 2,
+      "source_id": "DevExperienceGenAI2025",
+      "chunk_id": "DevExperienceGenAI2025_chunk_013",
+      "distance_l2": 1.150103211402893,
+      "text_preview": " \n(group A not using GenAI during the first controlled session \nvs. group B using GenAI during both controlled sessions) \n(Figure 1). Therefore, the tasks from both controlled sessions \nand the two participant groups are analyzed together in the \nfollowing. Please refer to the supplemental material ..."
+    },
+    {
+      "rank": 3,
+      "source_id": "ExpectationVsExperience2022",
+      "chunk_id": "ExpectationVsExperience2022_chunk_013",
+      "distance_l2": 1.1664003133773804,
+      "text_preview": " “it is ambiguous to use comments to hint at\nCopilot what I want.”\n5\nDISCUSSION\nThe majority of participants (19 out of 24) expressed a strong prefer-\nence to use Copilot for their day-to-day programming tasks for sev-\neral reasons. In many cases, Copilot accurately generated the code\nfrom the promp..."
+    },
+    {
+      "rank": 4,
+      "source_id": "PerformanceAnalysis2026",
+      "chunk_id": "PerformanceAnalysis2026_chunk_036",
+      "distance_l2": 1.1682443618774414,
+      "text_preview": "Llama, DeepSeek-Coder, \nand Copilot Chat models. The results, which include both static and dynamic analyses, \nindicate that prompt engineering can lead to reductions in performance regressions, but the \nmagnitude and direction of improvement depend on the specific model, dataset, and metric. \nFor C..."
+    },
+    {
+      "rank": 5,
+      "source_id": "ExpectationVsExperience2022",
+      "chunk_id": "ExpectationVsExperience2022_chunk_010",
+      "distance_l2": 1.1697330474853516,
+      "text_preview": " has no experience. P7 said, “the generation\nof fully formed functions that completed a task that I wasn’t sure\nhow to approach/start was very cool.” For four of the participants,\nCopilot auto-completed the code for almost the whole tasks, and\nparticipants did very little to no fixes to the generate..."
+    }
+  ],
+  "answer": "Here is a concise comparison between the enterprise field study (CopilotCACM2022) and the controlled Copilot experiment (DevExperienceGenAI2025):\n\nThe two studies agree on some points. For instance, both studies suggest that developers who use GitHub Copilot experience improvements in task duration and efficiency. In the enterprise field study, participants reported that Copilot helped them stay focused, spend less effort on repetitive tasks, and perform those tasks faster. Similarly, the controlled experiment found that developers using Copilot were significantly faster than those without it.\n\nHowever, the two studies also differ in some ways. The enterprise field study suggests that developers who are more experienced with GitHub Copilot tend to have a better experience, whereas the controlled experiment did not find any significant correlation between experience and productivity. Additionally, the enterprise field study highlights the importance of understanding and debugging generated code, which was not explicitly mentioned in the controlled experiment.\n\nReferences:\n\n(CopilotCACM2022, CopilotCACM2022_chunk_014)\n(DevExperienceGenAI2025, DevExperienceGenAI2025_chunk_013)",
+  "citations_found": [
+    [
+      "CopilotCACM2022",
+      "CopilotCACM2022_chunk_014"
+    ],
+    [
+      "DevExperienceGenAI2025",
+      "DevExperienceGenAI2025_chunk_013"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

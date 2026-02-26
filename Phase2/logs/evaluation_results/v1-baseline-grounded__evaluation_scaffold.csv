@@ -1,0 +1,21 @@
+query_id,query_type,num_structured_citations,has_correct_citation_format,has_fabricated_reference_style,mentions_insufficient_evidence,answer_word_count,manual_groundedness,manual_citation_score,manual_usefulness,failure_tag,notes
+D1,direct,2,True,False,False,87,2,2,2,,Clean grounded answer with valid structured citations
+D2,direct,3,True,True,True,170,1,0,1,fabricated_reference,Mixes structured citations with fabricated reference style; inconsistent trust behavior
+D3,direct,2,True,False,False,131,1,2,2,minor_unlinked_claim,Mostly grounded; a small claim/figure mention appears uncited
+D4,direct,4,True,False,False,141,1,1,2,citation_mismatch,Citations present but don’t cleanly support all claims / mapping unclear
+D5,direct,2,True,False,False,156,2,2,2,,Strong answer with appropriate citations
+D6,direct,1,True,False,False,297,0,0,1,fabricated_reference,Reference handling breaks; invalid/fake citation behavior
+D7,direct,0,False,False,True,56,2,2,1,correct_abstention,Correctly says insufficient evidence; could add more guidance
+D8,direct,0,False,False,True,16,2,2,1,correct_abstention_short,Correct abstention but extremely brief
+D9,direct,0,False,False,False,161,0,0,2,missing_structured_citations,Provides unsupported/quantitative claims with no citations
+D10,direct,0,False,False,True,21,2,2,1,correct_abstention_short,Correct abstention but very short
+S1,synthesis,2,True,False,False,153,2,2,2,,Good synthesis grounded in cited chunks
+S2,synthesis,10,True,False,False,224,2,2,2,,Excellent synthesis; strongest overall
+S3,synthesis,2,True,False,True,115,1,1,1,partial_grounding,Some synthesis claims not fully backed by the cited evidence
+S4,synthesis,0,False,False,True,23,2,2,0,over_abstention,Over-abstains for a synthesis question; doesn’t attempt synthesis
+S5,synthesis,0,False,True,False,336,0,0,1,hallucinated_bibliography,Fabricated bibliography / invented sources
+E1,edge,0,False,False,False,2,1,2,0,degenerate_short_answer,Too short to be useful; no evidence reasoning shown
+E2,edge,4,True,False,True,86,2,2,2,,Conservative and well-supported by citations
+E3,edge,4,True,False,True,83,2,2,1,mild_redundancy,Grounded but a bit repetitive; still acceptable
+E4,edge,1,True,False,True,191,0,0,1,fabricated_reference,Fabricated/invalid reference behavior despite citations appearing
+E5,edge,1,True,False,False,38,0,0,0,incorrect_claim,Claims pre-2018 evidence while citing later work; incorrect

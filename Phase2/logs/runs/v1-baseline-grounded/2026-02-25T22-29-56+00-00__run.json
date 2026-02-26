@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-02-25T22:29:56+00:00",
+  "query": "Do studies using subjective productivity measures reach different conclusions than studies using objective performance metrics?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_007",
+      "distance_l2": 0.758870005607605,
+      "text_preview": " found that \nthe usage metrics we describe in the \nUsage Measurements section  corre­\nsponded similarly to each of the mea­\nsured dimensions of productivity, and \nin turn these dimensions were highly \ncorrelated to each other (Figure 3). We \ntherefore added an aggregate produc­\ntivity score calculat..."
+    },
+    {
+      "rank": 2,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_012",
+      "distance_l2": 0.8025756478309631,
+      "text_preview": " However, such \nmeasures are not connected to goals \n(for instance, it is not the goal of a \ndeveloper to write the most lines of \ncode), they may motivate developers to \ngame the system, they do not account \nfor the quality of the output, and they \nare in tension with other metrics (for \nexample, a..."
+    },
+    {
+      "rank": 3,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_009",
+      "distance_l2": 0.908617377281189,
+      "text_preview": " modern software development \nhappens in teams and is, therefore, \nimpacted by the discoverability of \nas how healthy and happy they are \nwith the work they do. This dimension \nreflects some of the easy-to-overlook \ntrade-offs involved when looking ex­\nclusively at velocity acceleration—for \nexample..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_011",
+      "distance_l2": 0.9289672374725342,
+      "text_preview": ", although \nit is beneficial to combine with others \nto get a fuller picture.\nExperience\nTo understand how different types of \ndevelopers interact with Copilot, our \nsurvey asked respondents to self-report \ntheir level of experience in two ways:\n\t\n˲ \"Think of the language you have \nused the most wit..."
+    },
+    {
+      "rank": 5,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_004",
+      "distance_l2": 0.9947693347930908,
+      "text_preview": " or the presence of errors or defects [26]. However, Meyer et al. [34]\nconsiders “when software developers perceive themselves to be productive and... unproductive” [34, p.1] as an important\naspect of productivity.\nCheng et al. [11] outline a number of subjective and objective factors that impact de..."
+    }
+  ],
+  "answer": "Do studies using subjective productivity measures reach different conclusions than studies using objective performance metrics?\n\nInsufficient evidence in the current corpus.\n\nReferences:\nNone",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

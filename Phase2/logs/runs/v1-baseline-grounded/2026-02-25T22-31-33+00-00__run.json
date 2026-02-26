@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-02-25T22:31:33+00:00",
+  "query": "Does the corpus contain evidence that AI coding assistants eliminate the need for human code review?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_023",
+      "distance_l2": 0.8322162628173828,
+      "text_preview": " vs. experience: Evaluating the usability of code generation tools\npowered by large language models. In Chi conference on human factors in computing systems extended abstracts. 1–7.\n[51] Dakuo Wang, Justin D Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulow..."
+    },
+    {
+      "rank": 2,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_010",
+      "distance_l2": 0.8380179405212402,
+      "text_preview": " tool is so new and very few people on my team use it. There is an inherent suspicion against\nAI-generated code.” Although only two respondents raised this issue, it may be important for organizational leaders to\nfoster a culture in which AI assistance is viewed as acceptable to garner wide-spread a..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_003",
+      "distance_l2": 0.8552937507629395,
+      "text_preview": " assistants can aid sensemaking tasks in code repositories.\n• We identify a shared responsibility between people and AI systems in mitigating the risks of generated outputs.\n2\nRelated Work\nWe outline three areas relevant to our study of AI code assistants: code-fluent LLMs and their incorporation in..."
+    },
+    {
+      "rank": 4,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_002",
+      "distance_l2": 0.8836119771003723,
+      "text_preview": " workers. As humans rely on AI for skills such as brainstorming,\nwriting, and general critical thinking, the development of these skills may be significantly altered depending\non how AI assistance is used.\nSoftware engineering, in particular, has been identified as a profession in which AI tools can..."
+    },
+    {
+      "rank": 5,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.8875298500061035,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    }
+  ],
+  "answer": "References:\n\nNone.",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-02-25T22:24:10+00:00",
+  "query": "What evidence exists regarding AI assistants increasing technical debt or maintenance burden?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_028",
+      "distance_l2": 0.6992030143737793,
+      "text_preview": "les and best practices, resulting in code that is functional but brittle. This concern echoes evidence\nfrom other AI-augmented work settings, where less-experienced workers experience large productivity\ngains while more skilled workers see modest improvements and increased coordination burdens (Bryn..."
+    },
+    {
+      "rank": 2,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_026",
+      "distance_l2": 0.7316187620162964,
+      "text_preview": ". First, the introduction of GitHub Copilot leads to higher\ndevelopment activity at both the repository and individual levels, measured by commits and PR, consistent\nwith industry evidence on AI-driven productivity gains (Peng et al. 2023). Second, these gains are accompa-\nnied by a significant incr..."
+    },
+    {
+      "rank": 3,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_004",
+      "distance_l2": 0.7755113840103149,
+      "text_preview": " et al., 2024, Shen and\nGuestrin, 2025]. For example, AI tools are being used in professional domains such as software development,\neducation, design, and the sciences [Handa et al., 2025].\nProductivity Gains\nMany studies have found improvements in productivity using these AI assistants.\nFor example..."
+    },
+    {
+      "rank": 4,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_009",
+      "distance_l2": 0.7795506715774536,
+      "text_preview": " Ramasubbu and Kemerer 2021). Both approaches have value: the former\nmetric-based techniques are scalable and actionable for tooling, while the later process indicators capture\nthe economic and human costs that managers and maintainers ultimately face.\nEmpirical studies across industry and OSS ecosy..."
+    },
+    {
+      "rank": 5,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_025",
+      "distance_l2": 0.8256015777587891,
+      "text_preview": " of distinct repositories reviewed, indicating a broader oversight role.\n7.\nDiscussion\n7.1.\nKey Findings and Discussion\nA growing literature documents that the adoption of GenAI technologies delivers substantial productivity\ngains but also introduces a range of unintended secondary effects. These in..."
+    }
+  ],
+  "answer": "Based on the provided evidence, there is some indication that AI assistants may increase technical debt or maintenance burden in open-source software (OSS) projects. Specifically:\n\n* The introduction of GitHub Copilot leads to higher development activity at both the repository and individual levels, but also results in a significant increase in maintenance-related activities, which can be an early indicator of technical debt accumulation (AIProdDecrease2024_chunk_028).\n* AI-assisted contributions from peripheral developers may increase coordination and review burdens for core contributors, who are already reviewing more pull requests (PRs) and contributing fewer commits, resulting in a shift away from writing new code and toward managing code submissions (AIProdDecrease2024_chunk_026).\n\nWhile the evidence suggests that AI assistants can lead to increased productivity gains, it also highlights concerns about the maintenance burden and technical debt accumulation that may arise. However, it is essential to consider the broader context of OSS projects and the dynamics at play.\n\nReferences:\n\n(AIProdDecrease2024, AIProdDecrease2024_chunk_028)\n(AIProdDecrease2024, AIProdDecrease2024_chunk_026)",
+  "citations_found": [
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_028"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_026"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

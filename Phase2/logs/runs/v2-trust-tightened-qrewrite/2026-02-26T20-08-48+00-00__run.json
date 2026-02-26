@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-26T20:08:48+00:00",
+  "query": "What evidence exists about AI coding assistants and collaborative open-source development?",
+  "retrieval_query": "Evidence on AI coding assistants and their impact on collaborative open-source software development since 2015.",
+  "query_rewritten": true,
+  "rewritten_query": "Evidence on AI coding assistants and their impact on collaborative open-source software development since 2015.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_001",
+      "distance_l2": 0.4899677634239197,
+      "text_preview": "The Impact of Generative AI on Collaborative Open-Source Software \nDevelopment: Evidence from GitHub Copilot \n \n        Fangchen Song                                 Ashish Agarwal                                Wen Wen \nUniversity of Texas at Austin      University of Texas at Austin           Univ..."
+    },
+    {
+      "rank": 2,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_009",
+      "distance_l2": 0.5451650619506836,
+      "text_preview": "  \nOpen-source software (OSS) development is characterized by a fully decentralized and open environment, \nwhere a group of voluntary software developers work together to develop and refine code, subsequently \nmaking it accessible to fellow developers and the broader community (Levine and Prietula 2..."
+    },
+    {
+      "rank": 3,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_032",
+      "distance_l2": 0.6095294952392578,
+      "text_preview": " structure, developers are generally not \nassigned with tasks. Instead, they voluntarily select areas in which they wish to contribute. Given that open-\nsource projects often adopt modular architectures and support parallel development (Howison and \nCrowston 2014, Medappa and Srivastava 2019), core ..."
+    },
+    {
+      "rank": 4,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_002",
+      "distance_l2": 0.6825305223464966,
+      "text_preview": " AI tools can not only automate mundane tasks but \nalso enhance original content. In the context of software development, generative AI-powered pair \nprogrammers (i.e., AI pair programmers) like GitHub Copilot, Amazon Q Developer, Google Gemini, and \nChat GPT can swiftly generate code based on devel..."
+    },
+    {
+      "rank": 5,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_004",
+      "distance_l2": 0.6971492767333984,
+      "text_preview": ", because AI pair programmers not only boost individual code contributions but also encourage \ngreater developer participation. However, because AI pair programmers also encourage more participation \nin discussions on OSS projects, they could lead to longer coordination time for code integration. Mo..."
+    }
+  ],
+  "answer": "What evidence exists about AI coding assistants and collaborative open-source development?\n\nInsufficient evidence in the current corpus.\n\nTo better answer this question, we should search for studies that specifically investigate the impact of AI pair programmers on collaborative open-source software (OSS) development. These studies could provide insights into how AI coding assistants influence developer participation, project-level code contributions, and coordination time. We can also explore studies that examine the effects of AI pair programmers on different types of developers, such as core and peripheral developers.\n\nReferences:\n(None used in this answer)",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": false,
+  "references_issue": "References: section is empty.",
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

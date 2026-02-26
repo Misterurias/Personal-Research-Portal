@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-26T20:17:00+00:00",
+  "query": "Does the corpus provide evidence that AI coding assistants improve long-term software maintainability?",
+  "retrieval_query": "Evidence of AI coding assistant impact on long-term software maintainability in a specific corpus.",
+  "query_rewritten": true,
+  "rewritten_query": "Evidence of AI coding assistant impact on long-term software maintainability in a specific corpus.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_023",
+      "distance_l2": 0.7160422801971436,
+      "text_preview": " vs. experience: Evaluating the usability of code generation tools\npowered by large language models. In Chi conference on human factors in computing systems extended abstracts. 1–7.\n[51] Dakuo Wang, Justin D Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulow..."
+    },
+    {
+      "rank": 2,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_001",
+      "distance_l2": 0.7725085020065308,
+      "text_preview": "Examining the Use and Impact of an AI Code Assistant on Developer\nProductivity and Experience in the Enterprise\nJUSTIN D. WEISZ, IBM Research, USA\nSHRADDHA KUMAR∗, Cisco Systems, Inc., India\nMICHAEL MULLER, IBM Research, USA\nKAREN-ELLEN BROWNE, IBM Software, Ireland\nARIELLE GOLDBERG, IBM Infrastruct..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_003",
+      "distance_l2": 0.7790831327438354,
+      "text_preview": " assistants can aid sensemaking tasks in code repositories.\n• We identify a shared responsibility between people and AI systems in mitigating the risks of generated outputs.\n2\nRelated Work\nWe outline three areas relevant to our study of AI code assistants: code-fluent LLMs and their incorporation in..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CodeQualityComparison2023",
+      "chunk_id": "CodeQualityComparison2023_chunk_001",
+      "distance_l2": 0.7942872047424316,
+      "text_preview": "Noname manuscript No.\n(will be inserted by the editor)\nEvaluating the Code Quality of AI-Assisted Code\nGeneration Tools: An Empirical Study on GitHub Copilot,\nAmazon CodeWhisperer, and ChatGPT\nBurak Yetiştiren · Işık Özsoy · Miray\nAyerdem · Eray Tüzün\nthe date of receipt and acceptance should be ins..."
+    },
+    {
+      "rank": 5,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_027",
+      "distance_l2": 0.7962311506271362,
+      "text_preview": " the project. As a\nresult, maintainers are compelled to reallocate their time toward reviewing and managing code submissions\ninstead of writing new code.\n7.2.\nContributions and Future Research\nExtant research on AI pair programming has primarily emphasized productivity and efficiency gains, sug-\nges..."
+    }
+  ],
+  "answer": "Does the corpus provide evidence that AI coding assistants improve long-term software maintainability?\n\nInsufficient evidence in the current corpus.\n\nTo address this question, additional research and data are needed to investigate how AI coding assistants impact long-term software maintainability. The provided corpus only discusses the effects of AI coding assistants on developer productivity and experience, but does not explicitly explore the impact on software maintainability.\n\nIf you want to add more evidence or references, here are some potential areas to search or include:\n\n* Studies that focus on the relationship between AI-assisted code generation and technical debt\n* Research on the impact of AI coding assistants on code quality, maintainability, and reliability\n* Analysis of the effects of AI coding assistants on software development workflows and processes\n* Investigations into how AI coding assistants influence collaboration and knowledge sharing among developers",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": false,
+  "references_issue": "Missing References: section.",
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

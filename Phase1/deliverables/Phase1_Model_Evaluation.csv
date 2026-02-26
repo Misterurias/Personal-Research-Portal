@@ -1,0 +1,133 @@
+Run_ID,Task_ID,Test_Case_ID,Paper_Title,Prompt_ID,Model,Groundedness_Score (1-4),Citation_Correctness_Score (1-4),Usefulness_Score (1-4),Failure_Tags,Notes
+1,T1,T1-A,Impact of AI on Developer Productivity,A,GPT-5.2 Auto,3,2,4,"Missing_Citations
+Minor_Overgeneralization","The summary is largely faithful to the paper’s content and correctly captures the experiment design, main quantitative result (≈55.8% faster), and key limitations.
+
+However, several specific claims (e.g., heterogeneous effects by age and workload, underestimation of gains, willingness to pay) are presented confidently without explicit grounding or citation, which lowers groundedness slightly.
+
+No citations are provided at all, which is acceptable structurally for Prompt A but weakens citation correctness under your rubric.
+
+Overall, this is a very clear, well-structured, and genuinely useful triage summary that a reader could rely on for high-level understanding, even if it lacks explicit sourcing discipline."
+2,T1,T1-A,Impact of AI on Developer Productivity,B,GPT-5.2 Auto,3,3,4,"Minor_Overgeneralization
+Missing_NotSpecified","The response is largely faithful to the paper and correctly reports the experimental design, core quantitative result (55.8% faster), and main limitations, showing strong grounding overall.
+
+However, for Prompt B, the model should have used “Not specified in the paper.” more explicitly (e.g., when summarizing heterogeneous effects and age ranges), as some phrasing slightly smooths over uncertainty rather than flagging it.
+
+No explicit citations are included, but the content remains internally consistent with the paper, resulting in a mid-to-high citation correctness score under your rubric.
+
+The output is concise, structured exactly as required, and highly useful as a triage summary, demonstrating that Prompt B improves clarity and discipline compared to Prompt A while still leaving minor guardrail gaps."
+3,T1,T1-A,Impact of AI on Developer Productivity,A,Gemini 3 Fast,2,2,3,"Overgeneralization
+Ungrounded_Detail
+Speculative_Limitation
+Missing_Citations","While much of the summary aligns with the paper’s core results, several details are overstated or insufficiently grounded, including precise demographic characterizations (e.g., geographic concentration, education level) and framing claims like “massive speed increase,” which introduce interpretive language not used in the paper.
+
+Some findings (e.g., age ranges, willingness-to-pay figures) are presented with exact numbers without explicit grounding in the provided text, weakening confidence in factual fidelity.
+
+No citations are provided, which limits citation correctness even under Prompt A.
+
+The output is readable and informative, but the added framing, interpretive tone, and speculative limitations (e.g., labor market impact) reduce its reliability compared to a stricter triage summary."
+4,T1,T1-A,Impact of AI on Developer Productivity,B,Gemini 3 Fast,2,2,3,"Guardrail_Violation
+Ungrounded_Detail
+Speculative_Limitation
+Missing_NotSpecified","Although the overall structure matches the five required fields, the response violates Prompt B guardrails by introducing unsupported demographic details (e.g., specific locations, education levels) and interpretive framing (“significantly reduce,” “benefited more”) without explicitly flagging uncertainty or using “Not specified in the paper.”
+
+Several limitation statements (e.g., labor market distributions, job task changes) go beyond what is directly measured and should have been marked as not specified, reducing groundedness.
+
+No citations are provided, and claims requiring explicit grounding are presented as facts, weakening citation correctness under the rubric."
+5,T1,T1-B,How AI Impacts Skill Formation,A,GPT-5.2 Auto,3,2,4,"Missing_Citations
+Minor_Interpretive_Language","The summary accurately reflects the paper’s core focus on skill formation vs. productivity, the Trio learning setup, the experimental design, and the main result that AI use reduced learning outcomes despite limited productivity gains.
+
+Some phrasing (“impair the development,” “cognitive engagement is key,” “AI-enhanced productivity is not a substitute for learning”) is interpretive and slightly extrapolative, which is acceptable for Prompt A but prevents a top groundedness score.
+
+No citations are provided, which lowers citation correctness under the rubric even though the factual content aligns well with the paper.
+
+Overall, this is a clear, well-structured, and highly useful triage summary that would effectively orient a reader to the paper’s contributions and implications."
+6,T1,T1-B,How AI Impacts Skill Formation,B,GPT-5.2 Auto,4,3,4,Missing_Citations,"The response stays tightly grounded in the paper’s reported design and results, avoids speculative language, and does not introduce unsupported demographic or methodological details.
+
+It correctly refrains from overstating productivity gains and clearly distinguishes between task completion and learning outcomes, which reflects proper uncertainty handling.
+
+While explicit citations are not included, the claims are internally consistent with the paper and framed cautiously, warranting a strong citation correctness score under Prompt B.
+
+Overall, this is a clean, disciplined triage summary that demonstrates strong compliance with Prompt B guardrails and high usefulness for researchers."
+7,T1,T1-B,How AI Impacts Skill Formation,A,Gemini 3 Fast,2,3,2,"Interpretive_Overreach
+Ungrounded_Claims
+Missing_Citations","The summary captures the paper’s general theme and experimental setup, but repeatedly extends beyond what is strictly supported by the paper, especially in interpretive framing such as “cost of convenience,” “safety gap,” and implications about high-stakes environments.
+
+Several details are presented with strong causal or normative language (e.g., erosion of debugging skills implying future supervision failure) that are not directly measured or claimed in the paper, reducing groundedness.
+
+No citations are provided, which limits citation correctness even under Prompt A.
+
+Despite these issues, the output is readable and moderately useful for orientation, though it blends empirical findings with editorial interpretation more than a neutral triage summary should."
+8,T1,T1-B,How AI Impacts Skill Formation,B,Gemini 3 Fast,2,2,3,"Guardrail_Violation
+Ungrounded_Detail
+Overprecision
+Missing_NotSpecified","While the response follows the required five-field structure, it repeatedly introduces details that are not clearly specified in the paper (e.g., item response theory scoring, ensuring all treatment participants finished, specific psychometric framing), which violates Prompt B’s “do not infer” constraint.
+
+Several quantitative and methodological claims are presented with high precision (effect sizes, scoring methods, interaction taxonomy framing) without explicitly marking uncertainty or using “Not specified in the paper.”
+
+No citations are provided, and claims that would require explicit grounding are stated as facts, lowering citation correctness."
+9,T2,T2-A,The Good and Bad of AI Tools in Novice Programming Education,A,GPT-5.2 Auto,2,2,3,"Citation_Format_Error
+Overgeneralized_Claims
+Evidence_Paraphrase_Drift","While the claims broadly reflect themes present in the paper, several are overgeneralized (e.g., “provide meaningful learning benefits”) and move beyond what is tightly supported by the quoted snippets.
+
+The “supporting quotes” are often loosely paraphrased summaries rather than verbatim or closely bounded excerpts, weakening the claim–evidence linkage required even under Prompt A.
+
+Citations are provided only as author/year and do not clearly reference specific sections or evidence locations, reducing citation correctness.
+
+The table is readable and moderately useful for orientation, but it lacks the precision and traceability needed for high-confidence claim–evidence extraction."
+10,T2,T2-A,The Good and Bad of AI Tools in Novice Programming Education,B,GPT-5.2 Auto,4,3,4,Minor_Citation_Format_Ambiguity,"Each claim is directly supported by a clearly matching evidence snippet, and the snippets are either verbatim or tightly bounded paraphrases, satisfying Prompt B’s strongest requirement.
+
+The model avoids speculation and does not introduce claims beyond what the cited results sections support, showing strong grounding and good uncertainty discipline.
+
+Citation format follows the required (source_id, chunk_id) structure, though the chunk identifiers (e.g., Results-3.1) are section-level rather than true chunk IDs, creating slight ambiguity but not fabrication.
+
+Overall, this is a high-quality claim–evidence extraction that demonstrates the benefit of Prompt B guardrails in reducing hallucination and improving traceability."
+11,T2,T2-A,The Good and Bad of AI Tools in Novice Programming Education,A,Gemini 3 Fast,2,3,3,"Overgeneralized_Claims
+Interpretive_Paraphrase
+Claim_Evidence_Drift","Several claims are interpretive extensions of the cited text rather than strictly supported statements (e.g., “improve with user experience through better prompt engineering,” “turn developers into passive recipients”), which weakens groundedness even though they are thematically aligned with the paper.
+
+Evidence snippets are sometimes selectively quoted and rhetorically reframed, making the claim stronger or more generalized than what the text directly supports.
+
+Citations reference plausible sections of the paper and are more specific than simple author–year citations, resulting in a stronger citation correctness score than some other Prompt A outputs.
+
+Overall, the table is readable and moderately useful, but it blends empirical findings with analytical interpretation, limiting reliability for strict claim–evidence extraction."
+12,T2,T2-A,The Good and Bad of AI Tools in Novice Programming Education,B,Gemini 3 Fast,3,2,3,"Citation_Format_Error
+Guardrail_Violation
+Overinterpretation","Most claims are reasonably supported by the provided evidence snippets, and the snippets are largely verbatim or closely paraphrased, which supports solid groundedness overall.
+
+However, several claims subtly over-interpret the evidence (e.g., framing improved satisfaction or inferred prompt-engineering skill as broad developmental outcomes rather than context-specific observations), which prevents a top groundedness score.
+
+Citation format does not comply with Prompt B’s required (source_id, chunk_id) schema: section numbers are used instead of chunk IDs, constituting a guardrail violation and lowering citation correctness."
+13,T2,T2-B,Measuring GitHub Copilot’s Impact on Productivity,A,GPT-5.2 Auto,3,3,4,"Minor_Claim_Redundancy
+Section_Level_Citations","The claims are well aligned with the paper’s reported analyses and are generally well supported by closely matching evidence snippets, showing solid grounding overall.
+
+There is some redundancy across the first three claims (all centered on acceptance rate vs. persistence metrics), which slightly limits conceptual breadth but does not undermine factual accuracy.
+
+Citations correctly reference relevant paper sections, though they are section-level rather than granular evidence locations, which caps citation correctness short of a perfect score.
+
+Overall, this is a clear, faithful, and highly useful extraction that would be valuable for understanding the paper’s core empirical insights, especially regarding perceived productivity drivers."
+14,T2,T2-B,Measuring GitHub Copilot’s Impact on Productivity,B,GPT-5.2 Auto,4,3,4,"Minor_Citation_Format_Ambiguity
+Conceptual_Redundancy","All five claims are directly supported by tightly matching evidence snippets, with several quotes including precise statistics (e.g., correlations and p-values), demonstrating excellent grounding.
+
+The model avoids speculation and stays within the scope of reported results, fully complying with Prompt B’s “no inference” constraint.
+
+Citation format follows the (source_id, chunk_id) structure, but chunk identifiers are section-level labels rather than true chunk IDs, creating minor ambiguity and preventing a perfect citation score.
+
+There is some conceptual overlap among acceptance-rate–focused claims, but the set remains highly useful for understanding the paper’s core empirical findings."
+15,T2,T2-B,Measuring GitHub Copilot’s Impact on Productivity,A,Gemini 3 Fast,3,3,3,"Minor_Overgeneralization
+Section_Level_Citations","The claims are generally well aligned with the paper’s findings, and most supporting snippets closely match the stated claims, indicating solid grounding overall.
+
+A few claims are slightly abstracted or interpretive (e.g., “the value of AI lies in goal progress rather than perfect accuracy”), which is thematically accurate but framed more normatively than the underlying evidence.
+
+Citations correctly reference relevant sections of the paper, but they remain section-level rather than precise evidence locations, which limits citation correctness short of a top score.
+
+The output is clear and readable, but compared to ChatGPT 5.2 Auto under Prompt B, it offers less precision and traceability."
+16,T2,T2-B,Measuring GitHub Copilot’s Impact on Productivity,B,Gemini 3 Fast,2,1,2,"Hallucinated_Claim
+Citation_Format_Error
+Guardrail_Violation
+External_Knowledge_Leak","Several claims are not directly supported by the provided evidence snippets or drift beyond the paper’s empirical findings (e.g., offline vs. online evaluation performance and the multidimensional productivity claim via the SPACE framework, which introduces external framing rather than extracted results).
+
+Citation formatting does not comply with Prompt B requirements: (Paper, 1) and (Paper, 2) are ambiguous and do not represent valid source_id, chunk_id pairs, resulting in a severe citation correctness penalty.
+
+The final claim relies on external conceptual knowledge (SPACE framework) rather than a claim grounded in the paper’s reported results, violating the “do not rely on external knowledge” guardrail.
+
+Overall, the output shows weak compliance with Prompt B constraints and limited usefulness for rigorous claim–evidence extraction compared to the ChatGPT 5.2 Auto Prompt B outputs."

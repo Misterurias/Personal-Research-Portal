@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-02-25T22:32:28+00:00",
+  "query": "Is there evidence in the corpus that AI coding assistants are equally beneficial across all developer skill levels?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_004",
+      "distance_l2": 0.7584409117698669,
+      "text_preview": " et al., 2024, Shen and\nGuestrin, 2025]. For example, AI tools are being used in professional domains such as software development,\neducation, design, and the sciences [Handa et al., 2025].\nProductivity Gains\nMany studies have found improvements in productivity using these AI assistants.\nFor example..."
+    },
+    {
+      "rank": 2,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_002",
+      "distance_l2": 0.7987174987792969,
+      "text_preview": " workers. As humans rely on AI for skills such as brainstorming,\nwriting, and general critical thinking, the development of these skills may be significantly altered depending\non how AI assistance is used.\nSoftware engineering, in particular, has been identified as a profession in which AI tools can..."
+    },
+    {
+      "rank": 3,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_025",
+      "distance_l2": 0.8170580863952637,
+      "text_preview": " should investigate the\nimpacts of agentic coding tools on learning outcomes and skill development.\n• Task Length: Ideally, skill formation takes place over months to years. We measured skill formation for\na specific Python library over a one-hour period. Future work should study real-world skill de..."
+    },
+    {
+      "rank": 4,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.8374556303024292,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    },
+    {
+      "rank": 5,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_001",
+      "distance_l2": 0.8479037284851074,
+      "text_preview": "How AI Impacts Skill Formation\nJudy Hanwen Shen∗\nAlex Tamkin†\nFebruary 3, 2026\nAbstract\nAI assistance produces significant productivity gains across professional domains, particularly for\nnovice workers. Yet how this assistance affects the development of skills required to effectively supervise\nAI r..."
+    }
+  ],
+  "answer": "Based on the provided evidence chunks, it can be concluded that there is insufficient evidence to support or refute the claim that AI coding assistants are equally beneficial across all developer skill levels.\n\nThe available evidence focuses primarily on the impact of AI assistance on novice workers and junior developers in software engineering, highlighting productivity gains and increased efficiency. However, it does not explicitly address the question of whether AI benefits are consistent across different skill levels.\n\nReferences:\n(SkillFormation2026, SkillFormation2026_chunk_001)\n(SkillFormation2026, SkillFormation2026_chunk_002)\n(SkillFormation2026, SkillFormation2026_chunk_004)\n(SkillFormation2026, SkillFormation2026_chunk_025)",
+  "citations_found": [
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_001"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_002"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_004"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_025"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

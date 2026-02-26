@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-02-26T20:10:01+00:00",
+  "query": "What risks or limitations of AI-assisted code generation are documented in the corpus?",
+  "retrieval_query": "\"Ai-assisted code generation risks or limitations AND documentation\"",
+  "query_rewritten": true,
+  "rewritten_query": "\"Ai-assisted code generation risks or limitations AND documentation\"",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_003",
+      "distance_l2": 0.5787299871444702,
+      "text_preview": "olve actual programming tasks in different languages and varying degrees of complexity, professional \ndevelopers of different skill and experience levels. Our assumption is that although the use of AI-assisted \ntools will increase productivity, at the same time, they might lead to the poor quality a..."
+    },
+    {
+      "rank": 2,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_014",
+      "distance_l2": 0.5835311412811279,
+      "text_preview": " 23.7% and a total increase in critical severity of 89%. We also demonstrate \nthat some dimensions of code quality are improved with AI-assisted code generation tools (i.e., \nmaintainability, cyclomatic complexity) but caution is warranted with operational risks, to code itself (i.e. \nextra code dup..."
+    },
+    {
+      "rank": 3,
+      "source_id": "AIReview2025",
+      "chunk_id": "AIReview2025_chunk_002",
+      "distance_l2": 0.6661642789840698,
+      "text_preview": "5] and code generation [6]. This review aims to \nsystematically review and analyze the current application status and research progress of AI in \nsoftware program development and code generation and review. The analysis focuses on two aspects: \none is AI-assisted intelligent code generation, and the..."
+    },
+    {
+      "rank": 4,
+      "source_id": "AIReview2025",
+      "chunk_id": "AIReview2025_chunk_001",
+      "distance_l2": 0.6679486632347107,
+      "text_preview": "236 \nA Review of Research on AI-Assisted Code Generation and AI-\nDriven Code Review \nYuzhi Wang \nBeijing University of Technology, Beijing, China \nshenrenaisite@yeah.net \nAbstract. With the significant breakthroughs of deep learning technologies such as large language \nmodels (LLMs) in the field of ..."
+    },
+    {
+      "rank": 5,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_001",
+      "distance_l2": 0.6811094284057617,
+      "text_preview": "International Journal for Multidisciplinary Research (IJFMR) \n \nE-ISSN: 2582-2160   ●   Website: www.ijfmr.com       ●   Email: editor@ijfmr.com \n \nIJFMR250661350 \nVolume 7, Issue 6, November-December 2025 \n1\n \nEmpirical Analysis of AI-Assisted Code \nGeneration Tools: Impact on Code Quality, \nSecuri..."
+    }
+  ],
+  "answer": "What risks or limitations of AI-assisted code generation are documented in the corpus?\n\nRisks or limitations of AI-assisted code generation include the potential introduction of security vulnerabilities, particularly in C++ (Sandoval et al., EmpiricalToolAnalysis2025_chunk_001). Additionally, there is a concern about issues of misunderstanding in cloning obfuscated code in libraries; licensing problems in open-source projects; and the potential for unnoticed subtle logical problems in open-source projects (Perry et al., EmpiricalToolAnalysis2025_chunk_001). Furthermore, the research found that AI-assisted code generation tools may lead to poor quality and insecure software development if not properly implemented (EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_003).\n\nThe use of AI-assisted code generation tools was found to introduce 23.7% more security vulnerabilities in the generated codes (EmpiricalToolAnalysis2025). However, it also led to a 31.4% increase in average developer productivity (EmpiricalToolAnalysis2025). Code maintainability went up by 18.2%, while cyclomatic complexity decreased by 14.6% (EmpiricalToolAnalysis2025).\n\nReferences:\nSandoval et al., EmpiricalToolAnalysis2025_chunk_001.\nPerry et al., EmpiricalToolAnalysis2025_chunk_001.\nEmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_003.\n\nNote: The provided evidence chunks are from the text you provided.",
+  "citations_found": [
+    [
+      "Sandoval et al.",
+      "EmpiricalToolAnalysis2025_chunk_001"
+    ],
+    [
+      "Perry et al.",
+      "EmpiricalToolAnalysis2025_chunk_001"
+    ],
+    [
+      "EmpiricalToolAnalysis2025",
+      "EmpiricalToolAnalysis2025_chunk_003"
+    ]
+  ],
+  "citations_valid": false,
+  "invalid_citations": [
+    [
+      "Sandoval et al.",
+      "EmpiricalToolAnalysis2025_chunk_001"
+    ],
+    [
+      "Perry et al.",
+      "EmpiricalToolAnalysis2025_chunk_001"
+    ]
+  ],
+  "references_consistent": false,
+  "references_issue": "References: section is empty.",
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

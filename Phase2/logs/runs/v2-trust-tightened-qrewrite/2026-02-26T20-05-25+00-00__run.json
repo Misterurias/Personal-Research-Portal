@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-26T20:05:25+00:00",
+  "query": "What evidence exists regarding AI assistants increasing technical debt or maintenance burden?",
+  "retrieval_query": "\"Evidence on whether AI assistants contribute to increased technical debt or maintenance burden\"",
+  "query_rewritten": true,
+  "rewritten_query": "\"Evidence on whether AI assistants contribute to increased technical debt or maintenance burden\"",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_026",
+      "distance_l2": 0.670220136642456,
+      "text_preview": ". First, the introduction of GitHub Copilot leads to higher\ndevelopment activity at both the repository and individual levels, measured by commits and PR, consistent\nwith industry evidence on AI-driven productivity gains (Peng et al. 2023). Second, these gains are accompa-\nnied by a significant incr..."
+    },
+    {
+      "rank": 2,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_028",
+      "distance_l2": 0.6761369109153748,
+      "text_preview": "les and best practices, resulting in code that is functional but brittle. This concern echoes evidence\nfrom other AI-augmented work settings, where less-experienced workers experience large productivity\ngains while more skilled workers see modest improvements and increased coordination burdens (Bryn..."
+    },
+    {
+      "rank": 3,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_025",
+      "distance_l2": 0.7645930051803589,
+      "text_preview": " of distinct repositories reviewed, indicating a broader oversight role.\n7.\nDiscussion\n7.1.\nKey Findings and Discussion\nA growing literature documents that the adoption of GenAI technologies delivers substantial productivity\ngains but also introduces a range of unintended secondary effects. These in..."
+    },
+    {
+      "rank": 4,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_009",
+      "distance_l2": 0.7830820083618164,
+      "text_preview": " Ramasubbu and Kemerer 2021). Both approaches have value: the former\nmetric-based techniques are scalable and actionable for tooling, while the later process indicators capture\nthe economic and human costs that managers and maintainers ultimately face.\nEmpirical studies across industry and OSS ecosy..."
+    },
+    {
+      "rank": 5,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_004",
+      "distance_l2": 0.7922376990318298,
+      "text_preview": " et al., 2024, Shen and\nGuestrin, 2025]. For example, AI tools are being used in professional domains such as software development,\neducation, design, and the sciences [Handa et al., 2025].\nProductivity Gains\nMany studies have found improvements in productivity using these AI assistants.\nFor example..."
+    }
+  ],
+  "answer": "What evidence exists regarding AI assistants increasing technical debt or maintenance burden?\n\nInsufficient evidence in the current corpus.\n\nTo add to the corpus and address this question, we recommend searching for studies that specifically investigate the impact of AI assistants on technical debt and maintenance burdens in software development settings. Additionally, exploring research on the effects of AI-augmented work on human skills and knowledge retention could provide valuable insights into the long-term consequences of relying on AI tools.\n\nReferences:\nNone cited",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": false,
+  "references_issue": "References: section is empty.",
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

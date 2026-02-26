@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-02-26T20:14:25+00:00",
+  "query": "Across the corpus, is there consensus on whether AI coding assistants improve overall developer performance?",
+  "retrieval_query": "Is there consensus on whether artificial intelligence coding assistants improve overall developer performance?",
+  "query_rewritten": true,
+  "rewritten_query": "Is there consensus on whether artificial intelligence coding assistants improve overall developer performance?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.746421217918396,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    },
+    {
+      "rank": 2,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_001",
+      "distance_l2": 0.793165385723114,
+      "text_preview": "CODE-COMPLETION SYSTEMS OFFERING suggestions \nto a developer in their integrated development \nenvironment (IDE) have become the most frequently \nused kind of programmer assistance.1 When \ngenerating whole snippets of code, they typically use \na large language model (LLM) to predict what the user \nmi..."
+    },
+    {
+      "rank": 3,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_014",
+      "distance_l2": 0.8132482171058655,
+      "text_preview": "50\n60\n70\nScore %\nQuiz Score % by Subarea and Condition\nCondition\nAI\nNo AI\nFigure 8: Score breakdown by questions type relating to each task and skill area. Debugging questions\nrevealed the largest differences in average quiz score between the treatment and control groups.\nPrior works have presented ..."
+    },
+    {
+      "rank": 4,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_004",
+      "distance_l2": 0.8141939043998718,
+      "text_preview": " or the presence of errors or defects [26]. However, Meyer et al. [34]\nconsiders “when software developers perceive themselves to be productive and... unproductive” [34, p.1] as an important\naspect of productivity.\nCheng et al. [11] outline a number of subjective and objective factors that impact de..."
+    },
+    {
+      "rank": 5,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_007",
+      "distance_l2": 0.8146309852600098,
+      "text_preview": "001, d=1.63). The improved time to complete tasks was exhibited by \nall levels of experience; however, senior developers had a slightly smaller (27.3%) improvement than \njunior (34.1%) and mid-level (32.8%) developers. \nProductivity gain was evaluated depending on programming language. The largest p..."
+    }
+  ],
+  "answer": "Across the corpus, there is no consensus on whether AI coding assistants improve overall developer performance.\n\nThe findings from [EmpiricalToolAnalysis2025] reveal a complicated trade-off landscape in AI-assisted code generation, which challenges simplistic narrative accounts focused explicitly on productivity. While speed may be enhanced, there are potential security and maintainability trade-offs for future versions of AI-assisted software.\n\nSimilarly, [SkillFormation2026] finds no conclusive evidence of a speed up or slow down using AI in the task. The results do not conclusively find a speed up or slow down using AI in this task.\n\nMoreover, [EnterpriseImpact2024] highlights that AI code assistants can have both positive and negative impacts on developer productivity, depending on factors such as code quality, technical debt, infrastructure tools and support, team communication, and organizational changes and processes.\n\nIn conclusion, there is insufficient evidence in the current corpus to draw a consensus on whether AI coding assistants improve overall developer performance.\n\nReferences:\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)\n(Copilot: GitHub Copilot)",
+  "citations_found": [
+    [
+      "EmpiricalToolAnalysis2025",
+      "EmpiricalToolAnalysis2025_chunk_010"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": true,
+  "references_issue": null,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

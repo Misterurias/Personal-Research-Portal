@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-02-25T22:26:18+00:00",
+  "query": "What conclusions are drawn in the 2022 CACM study about GitHub Copilot's impact?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_015",
+      "distance_l2": 0.7382984161376953,
+      "text_preview": " during our panel \nperiod. We select repositories with non-zero size, at least one specified programming language and license, \na description, and no mirror or personal store designation. To exclude ghost or abandoned projects, we \nrequire at least one code submission every six months from 2021 to 2..."
+    },
+    {
+      "rank": 2,
+      "source_id": "CodeQualityComparison2023",
+      "chunk_id": "CodeQualityComparison2023_chunk_037",
+      "distance_l2": 0.8027275800704956,
+      "text_preview": " 19 of them had reduced percentages of\ncorrectness in the new GitHub Copilot version. When we examined the answers from\nthe two versions of GitHub Copilot, we found that the new version of GitHub Copilot\nfrequently recommended ´pass’, which reduced the correctness of the answer. We\nobserved that Git..."
+    },
+    {
+      "rank": 3,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_070",
+      "distance_l2": 0.8067166805267334,
+      "text_preview": " our argument that the differential effects of Copilot on project-level code contributions \nand coordination time among core versus peripheral developers might be partly explained by their different \nlevels of project familiarity.  \nTable L.2: Heterogeneous Effect of Copilot on Developers with High ..."
+    },
+    {
+      "rank": 4,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_016",
+      "distance_l2": 0.8132724165916443,
+      "text_preview": " of developers as \nthe treatment start time for each repository. The months before this time are defined as the pre-treatment \nperiod and the months after this time as the post-treatment period for each repository, covering the two-\nyear span from 2021 to 2022. \nTo further improve comparability, we ..."
+    },
+    {
+      "rank": 5,
+      "source_id": "PerformanceAnalysis2026",
+      "chunk_id": "PerformanceAnalysis2026_chunk_058",
+      "distance_l2": 0.836592972278595,
+      "text_preview": "2020, volume EMNLP 2020 of \nFindings of ACL, pages 1536–1547. Association for Computational Linguistics\nFu Y, Liang P, Li Z, Shahin M, Yu J, Chen J (2025) Security weaknesses of copilot-generated code in github \nprojects: An empirical study. ACM Transactions on Software Engineering and Methodology\nG..."
+    }
+  ],
+  "answer": "Insufficient evidence in the current corpus to draw conclusions about GitHub Copilot's impact.\n\nReferences:\nNone cited.",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

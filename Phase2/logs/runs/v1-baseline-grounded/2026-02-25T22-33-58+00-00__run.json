@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-02-25T22:33:58+00:00",
+  "query": "Is there evidence that AI coding assistants have zero negative side effects?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_004",
+      "distance_l2": 1.0317883491516113,
+      "text_preview": " et al., 2024, Shen and\nGuestrin, 2025]. For example, AI tools are being used in professional domains such as software development,\neducation, design, and the sciences [Handa et al., 2025].\nProductivity Gains\nMany studies have found improvements in productivity using these AI assistants.\nFor example..."
+    },
+    {
+      "rank": 2,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_034",
+      "distance_l2": 1.057917594909668,
+      "text_preview": "ver effects enabled by AI pair programmers. \n 36 \nSecond, our work represents the first step in examining how generative AI affects core and \nperipheral developers differently. We acknowledge that beyond different levels of project familiarity, \ndevelopers may differ in motivation, ability, and pref..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_017",
+      "distance_l2": 1.0642588138580322,
+      "text_preview": " A large-scale survey on the usability of AI programming \nassistants: Successes and challenges. ACM Transactions on Computer-Human Interaction, 31(2), 1-\n45. \n23. Pearce, H., Ahmad, B., Tan, B., et al. (2022). Asleep at the keyboard? Assessing the security of GitHub \nCopilot's code contributions. IE..."
+    },
+    {
+      "rank": 4,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_015",
+      "distance_l2": 1.0722362995147705,
+      "text_preview": ".472). Echoing sentiments of WCA’s role as a “junior developer” or “intern,” some users felt it would free\nthem up to focus on the higher-level, creative aspects of their profession:\n“I believe WCA has large potential to generate boilerplate code and implement trivial pieces of code. This\nwould save..."
+    },
+    {
+      "rank": 5,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_025",
+      "distance_l2": 1.081047534942627,
+      "text_preview": " should investigate the\nimpacts of agentic coding tools on learning outcomes and skill development.\n• Task Length: Ideally, skill formation takes place over months to years. We measured skill formation for\na specific Python library over a one-hour period. Future work should study real-world skill de..."
+    }
+  ],
+  "answer": "Is there evidence that AI coding assistants have zero negative side effects?\n\nInsufficient evidence in the current corpus to support the claim that AI coding assistants have zero negative side effects.\n\nWhile some studies suggest that AI coding assistants can improve productivity and reduce the cognitive load of developers (e.g., [Brynjolfsson et al., 2025; Peng et al., 2024]), others raise concerns about the potential risks associated with their use, such as skill depletion (e.g., [Macnamara et al., 2024]) and over-reliance on AI-generated code (e.g., [Lee et al., 2025]). Additionally, there are concerns about the potential impact of AI coding assistants on the long-term sustainability of expertise development amid the proliferation of new AI tools (e.g., [SkillFormation2026, SkillFormation2026_chunk_025]).\n\nReferences:\n\n(Brynjolfsson et al., 2025)\n(Peng et al., 2024)\n(Macnamara et al., 2024)\n(Lee et al., 2025)\n(SkillFormation2026, SkillFormation2026_chunk_025)",
+  "citations_found": [
+    [
+      "e.g.",
+      "[Brynjolfsson et al., 2025; Peng et al., 2024]"
+    ],
+    [
+      "e.g.",
+      "[Macnamara et al., 2024]"
+    ],
+    [
+      "e.g.",
+      "[Lee et al., 2025]"
+    ],
+    [
+      "e.g.",
+      "[SkillFormation2026, SkillFormation2026_chunk_025]"
+    ],
+    [
+      "Brynjolfsson et al.",
+      "2025"
+    ],
+    [
+      "Peng et al.",
+      "2024"
+    ],
+    [
+      "Macnamara et al.",
+      "2024"
+    ],
+    [
+      "Lee et al.",
+      "2025"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_025"
+    ]
+  ],
+  "citations_valid": false,
+  "invalid_citations": [
+    [
+      "e.g.",
+      "[Brynjolfsson et al., 2025; Peng et al., 2024]"
+    ],
+    [
+      "e.g.",
+      "[Macnamara et al., 2024]"
+    ],
+    [
+      "e.g.",
+      "[Lee et al., 2025]"
+    ],
+    [
+      "e.g.",
+      "[SkillFormation2026, SkillFormation2026_chunk_025]"
+    ],
+    [
+      "Brynjolfsson et al.",
+      "2025"
+    ],
+    [
+      "Peng et al.",
+      "2024"
+    ],
+    [
+      "Macnamara et al.",
+      "2024"
+    ],
+    [
+      "Lee et al.",
+      "2025"
+    ]
+  ],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

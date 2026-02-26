@@ -1,0 +1,24 @@
+[
+  {"id": "D1", "type": "direct", "query": "What quantitative evidence exists that AI coding assistants increase task completion speed?"},
+  {"id": "D2", "type": "direct", "query": "What evidence suggests AI coding assistants reduce productivity in certain contexts?"},
+  {"id": "D3", "type": "direct", "query": "How do AI coding assistants affect junior versus experienced developers differently?"},
+  {"id": "D4", "type": "direct", "query": "What impact do AI coding assistants have on code quality?"},
+  {"id": "D5", "type": "direct", "query": "What evidence exists regarding AI assistants increasing technical debt or maintenance burden?"},
+  {"id": "D6", "type": "direct", "query": "How do AI coding tools affect perceived productivity compared to objective performance metrics?"},
+  {"id": "D7", "type": "direct", "query": "What findings are reported in the EnterpriseImpact2024 study regarding developer productivity?"},
+  {"id": "D8", "type": "direct", "query": "What conclusions are drawn in the 2022 CACM study about GitHub Copilot's impact?"},
+  {"id": "D9", "type": "direct", "query": "What evidence exists about AI coding assistants and collaborative open-source development?"},
+  {"id": "D10", "type": "direct", "query": "What risks or limitations of AI-assisted code generation are documented in the corpus?"},
+
+  {"id": "S1", "type": "synthesis", "query": "Compare the enterprise field study and the controlled Copilot experiment. Where do they agree and where do they differ?"},
+  {"id": "S2", "type": "synthesis", "query": "How do findings on productivity gains compare with findings on technical debt and maintenance burden?"},
+  {"id": "S3", "type": "synthesis", "query": "Compare evidence about skill formation effects with evidence about short-term productivity gains."},
+  {"id": "S4", "type": "synthesis", "query": "Do studies using subjective productivity measures reach different conclusions than studies using objective performance metrics?"},
+  {"id": "S5", "type": "synthesis", "query": "Across the corpus, is there consensus on whether AI coding assistants improve overall developer performance?"},
+
+  {"id": "E1", "type": "edge", "query": "Does the corpus contain evidence that AI coding assistants eliminate the need for human code review?"},
+  {"id": "E2", "type": "edge", "query": "Is there evidence in the corpus that AI coding assistants are equally beneficial across all developer skill levels?"},
+  {"id": "E3", "type": "edge", "query": "Does the corpus provide evidence that AI coding assistants improve long-term software maintainability?"},
+  {"id": "E4", "type": "edge", "query": "Is there evidence that AI coding assistants have zero negative side effects?"},
+  {"id": "E5", "type": "edge", "query": "Does the corpus contain empirical studies conducted before 2018 on AI coding assistants?"}
+]

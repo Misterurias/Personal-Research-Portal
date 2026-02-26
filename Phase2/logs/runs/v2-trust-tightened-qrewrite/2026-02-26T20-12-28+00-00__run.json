@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-26T20:12:28+00:00",
+  "query": "How do findings on productivity gains compare with findings on technical debt and maintenance burden?",
+  "retrieval_query": "Productivity gains comparison with technical debt and maintenance burden findings.",
+  "query_rewritten": true,
+  "rewritten_query": "Productivity gains comparison with technical debt and maintenance burden findings.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_019",
+      "distance_l2": 0.7337802648544312,
+      "text_preview": " offering a richer interpretation than a single\naggregated DiD estimate.\n4.\nMain Results\n4.1.\nProject Level Analysis - Technical Debt\nWe analyzed the number of lines of code added, commits, and PRs as code development activities, and PR\nrework as a measurment of technical debt. Table 5 presents the ..."
+    },
+    {
+      "rank": 2,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_009",
+      "distance_l2": 0.752854585647583,
+      "text_preview": " Ramasubbu and Kemerer 2021). Both approaches have value: the former\nmetric-based techniques are scalable and actionable for tooling, while the later process indicators capture\nthe economic and human costs that managers and maintainers ultimately face.\nEmpirical studies across industry and OSS ecosy..."
+    },
+    {
+      "rank": 3,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_026",
+      "distance_l2": 0.8527944684028625,
+      "text_preview": ". First, the introduction of GitHub Copilot leads to higher\ndevelopment activity at both the repository and individual levels, measured by commits and PR, consistent\nwith industry evidence on AI-driven productivity gains (Peng et al. 2023). Second, these gains are accompa-\nnied by a significant incr..."
+    },
+    {
+      "rank": 4,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_031",
+      "distance_l2": 0.8903351426124573,
+      "text_preview": "Peng S, Kalliamvakou E, Cihon P, Demirer M (2023) The Impact of AI on Developer Productivity: Evidence from\nGithub Copilot. arXiv preprint arXiv:2302.06590 .\nPimenova V, Fakhoury S, Bird C, Storey MA, Endres M (2025) Good Vibrations? A Qualitative Study of Co-Creation,\nCommunication, Flow, and Trust..."
+    },
+    {
+      "rank": 5,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_008",
+      "distance_l2": 0.9114648103713989,
+      "text_preview": ". In other words, the ease of generating code masks\nunderlying structural and logical gaps that become apparent under expert scrutiny (Barrett et al. 2023). As\nwith other AI tools that create superficially polished but potentially shallow results, vibe coding may be\nappealing for rapid prototyping, ..."
+    }
+  ],
+  "answer": "How do findings on productivity gains compare with findings on technical debt and maintenance burden?\n\nInsufficient evidence in the current corpus.\n\nWhat to search/add to the corpus:\n\n* More studies or datasets comparing productivity gains with technical debt and maintenance burdens\n* Research on how AI-assisted coding affects long-term system maintainability and reliability\n* Investigations into whether the benefits of AI pair programming come at the expense of increased technical debt\n\nReferences:\n(None)",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": false,
+  "references_issue": "References: section is empty.",
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

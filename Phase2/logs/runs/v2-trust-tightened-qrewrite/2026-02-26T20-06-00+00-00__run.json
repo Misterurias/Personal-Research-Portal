@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-02-26T20:06:00+00:00",
+  "query": "How do AI coding tools affect perceived productivity compared to objective performance metrics?",
+  "retrieval_query": "Impact of AI coding tools on perceived productivity and objective performance metrics.",
+  "query_rewritten": true,
+  "rewritten_query": "Impact of AI coding tools on perceived productivity and objective performance metrics.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_004",
+      "distance_l2": 0.605755090713501,
+      "text_preview": " or the presence of errors or defects [26]. However, Meyer et al. [34]\nconsiders “when software developers perceive themselves to be productive and... unproductive” [34, p.1] as an important\naspect of productivity.\nCheng et al. [11] outline a number of subjective and objective factors that impact de..."
+    },
+    {
+      "rank": 2,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_001",
+      "distance_l2": 0.6776856780052185,
+      "text_preview": "CODE-COMPLETION SYSTEMS OFFERING suggestions \nto a developer in their integrated development \nenvironment (IDE) have become the most frequently \nused kind of programmer assistance.1 When \ngenerating whole snippets of code, they typically use \na large language model (LLM) to predict what the user \nmi..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.6860761642456055,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_002",
+      "distance_l2": 0.6899054050445557,
+      "text_preview": "higher its benefit. The validity of this \nassumption is not obvious when con­\nsidering issues such as whether two \nshort completions are more valuable \nthan one long one, or whether review­\ning suggestions can be detrimental to \nprogramming flow.\nCode completion in IDEs using lan­\nguage models was f..."
+    },
+    {
+      "rank": 5,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_015",
+      "distance_l2": 0.6976314783096313,
+      "text_preview": " Human \nFactors in Computing Systems, 1-23. \n4. Kalliamvakou, E., Bird, C., Zimmermann, T., et al. (2024). The impact of AI on developer \nproductivity: Evidence from GitHub Copilot. IEEE Software, 41(3), 34-42. \n5. Peng, S., Kalliamvakou, E., Cihon, P., & Demirer, M. (2023). The impact of AI on deve..."
+    }
+  ],
+  "answer": "How do AI coding tools affect perceived productivity compared to objective performance metrics?\n\nThe study by Ziegler et al. [61, 62] found that developers who used GitHub Copilot self-reported higher levels of productivity. This is consistent with the findings from another study that examined the impact of AI-assisted code generation on developer productivity [EmpiricalToolAnalysis2025_chunk_010 | EmpiricalToolAnalysis2025]. The study found a significant increase in productivity when using AI-generated code, which suggests that AI coding tools can positively impact perceived productivity.\n\nIn terms of objective performance metrics, the study by Kalliamvakou et al. [4] found that usage measurements of developer interactions with GitHub Copilot can predict perceived productivity as reported by developers. This suggests that AI coding tools can also have a positive impact on objective performance metrics such as task time and product quality.\n\nReferences:\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_004)\n(CopilotCACM2022, CopilotCACM2022_chunk_001)\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)",
+  "citations_found": [
+    [
+      "EnterpriseImpact2024",
+      "EnterpriseImpact2024_chunk_004"
+    ],
+    [
+      "CopilotCACM2022",
+      "CopilotCACM2022_chunk_001"
+    ],
+    [
+      "EmpiricalToolAnalysis2025",
+      "EmpiricalToolAnalysis2025_chunk_010"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": true,
+  "references_issue": null,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

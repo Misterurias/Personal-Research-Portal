@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-02-25T22:20:52+00:00",
+  "query": "What quantitative evidence exists that AI coding assistants increase task completion speed?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_018",
+      "distance_l2": 0.6541988849639893,
+      "text_preview": " AI assistant\nis produced (annotated as an AI Query event).\nSince participants could ask the AI assistant as many questions as time allowed, a handful of participants\nasked more than five questions and spent up to six minutes composing a single query during this 35-minute\nassignment (Figure 12).5 Si..."
+    },
+    {
+      "rank": 2,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_014",
+      "distance_l2": 0.741960346698761,
+      "text_preview": "50\n60\n70\nScore %\nQuiz Score % by Subarea and Condition\nCondition\nAI\nNo AI\nFigure 8: Score breakdown by questions type relating to each task and skill area. Debugging questions\nrevealed the largest differences in average quiz score between the treatment and control groups.\nPrior works have presented ..."
+    },
+    {
+      "rank": 3,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_020",
+      "distance_l2": 0.745181143283844,
+      "text_preview": "\npasted (n = 9) AI code finished the tasks the fastest while participants who manually copied (n = 9) AI\ngenerated code or used a hybrid of both methods (n = 4) finished the task at a speed similar to the control\ncondition (No AI). There was a smaller group of participants in the AI condition who mo..."
+    },
+    {
+      "rank": 4,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_024",
+      "distance_l2": 0.7719960808753967,
+      "text_preview": "18\nscore) vs low-scoring interaction patterns (24%-39% quiz score). The high scorers only asked AI conceptual\nquestions instead of code generation or asked for explanations to accompany generated code; these usage\npatterns demonstrate a high level of cognitive engagement.\nContrary to our initial hyp..."
+    },
+    {
+      "rank": 5,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_021",
+      "distance_l2": 0.8154134154319763,
+      "text_preview": "? Are there parallels in its execution model to\nanother library I’d be more familiar with like asyncio”\nAppreciation (q=4)\n“Great job, we got the expected output on the first try.”\n“Looks like it worked, thanks!”\n“Trueeee!”\nTable 3: Examples of different types of queries received by AI assistant and..."
+    }
+  ],
+  "answer": "What quantitative evidence exists that AI coding assistants increase task completion speed?\n\nAccording to the provided evidence, there is no conclusive evidence that AI coding assistants significantly increase task completion speed. The study found that while using AI improved the average completion time of the task, the improvement was not significant in their main study (SkillFormation2026_chunk_014). However, they did observe that participants who directly pasted AI-generated code finished the tasks faster than those who manually copied or used a hybrid approach (SkillFormation2026_chunk_020).\n\nReferences:\n(SkillFormation2026, SkillFormation2026_chunk_018)\n(SkillFormation2026, SkillFormation2026_chunk_014)",
+  "citations_found": [
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_018"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_014"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

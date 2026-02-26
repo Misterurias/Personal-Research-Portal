@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-02-25T22:29:01+00:00",
+  "query": "How do findings on productivity gains compare with findings on technical debt and maintenance burden?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_019",
+      "distance_l2": 0.727522611618042,
+      "text_preview": " offering a richer interpretation than a single\naggregated DiD estimate.\n4.\nMain Results\n4.1.\nProject Level Analysis - Technical Debt\nWe analyzed the number of lines of code added, commits, and PRs as code development activities, and PR\nrework as a measurment of technical debt. Table 5 presents the ..."
+    },
+    {
+      "rank": 2,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_009",
+      "distance_l2": 0.7813194990158081,
+      "text_preview": " Ramasubbu and Kemerer 2021). Both approaches have value: the former\nmetric-based techniques are scalable and actionable for tooling, while the later process indicators capture\nthe economic and human costs that managers and maintainers ultimately face.\nEmpirical studies across industry and OSS ecosy..."
+    },
+    {
+      "rank": 3,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_026",
+      "distance_l2": 0.8639402389526367,
+      "text_preview": ". First, the introduction of GitHub Copilot leads to higher\ndevelopment activity at both the repository and individual levels, measured by commits and PR, consistent\nwith industry evidence on AI-driven productivity gains (Peng et al. 2023). Second, these gains are accompa-\nnied by a significant incr..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_007",
+      "distance_l2": 0.8685188293457031,
+      "text_preview": " found that \nthe usage metrics we describe in the \nUsage Measurements section  corre­\nsponded similarly to each of the mea­\nsured dimensions of productivity, and \nin turn these dimensions were highly \ncorrelated to each other (Figure 3). We \ntherefore added an aggregate produc­\ntivity score calculat..."
+    },
+    {
+      "rank": 5,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_031",
+      "distance_l2": 0.917371392250061,
+      "text_preview": "Peng S, Kalliamvakou E, Cihon P, Demirer M (2023) The Impact of AI on Developer Productivity: Evidence from\nGithub Copilot. arXiv preprint arXiv:2302.06590 .\nPimenova V, Fakhoury S, Bird C, Storey MA, Endres M (2025) Good Vibrations? A Qualitative Study of Co-Creation,\nCommunication, Flow, and Trust..."
+    }
+  ],
+  "answer": "References:\n\n(AIProdDecrease2024, AIProdDecrease2024_chunk_019)\n(AIProdDecrease2024, AIProdDecrease2024_chunk_009)\n(AIProdDecrease2024, AIProdDecrease2024_chunk_026)\n(CopilotCACM2022, CopilotCACM2022_chunk_007)\n(AIProdDecrease2024, AIProdDecrease2024_chunk_031)\n\nHow do findings on productivity gains compare with findings on technical debt and maintenance burden?\n\nThe evidence suggests that the introduction of GitHub Copilot leads to higher development activity at both the repository and individual levels (AIProdDecrease2024, AIProdDecrease2024_chunk_026). This increase in code development activities is accompanied by a significant increase in maintenance-related activities, indicating an accumulation of technical debt (AIProdDecrease2024, AIProdDecrease2024_chunk_019).\n\nFurthermore, the study finds that the increased productivity gains from Copilot-assisted coding are not matched by equivalent improvements in quality, integration with existing code, and maintainability, resulting in a higher maintenance burden for core contributors (AIProdDecrease2024, AIProdDecrease2024_chunk_031). This is evident from the additional workload placed on core contributors, who are expected to review approximately 10 more PRs annually, corresponding to a reduction of 164 commits and 9 PR contributions per year per core contributor (AIProdDecrease2024, AIProdDecrease2024_chunk_026).\n\nIn contrast, the CopilotCACM2022 study suggests that there is no direct correlation between usage metrics and productivity dimensions (CopilotCACM2022, CopilotCACM2022_chunk_007). However, this does not contradict the findings of AIProdDecrease2024, as the two studies focus on different aspects of developer productivity.\n\nIn summary, while productivity gains from GitHub Copilot may be evident, they are accompanied by a higher maintenance burden and an accumulation of technical debt, which may impact the overall efficiency and effectiveness of software development.",
+  "citations_found": [
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_019"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_009"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_026"
+    ],
+    [
+      "CopilotCACM2022",
+      "CopilotCACM2022_chunk_007"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_031"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_026"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_019"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_031"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_026"
+    ],
+    [
+      "CopilotCACM2022",
+      "CopilotCACM2022_chunk_007"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

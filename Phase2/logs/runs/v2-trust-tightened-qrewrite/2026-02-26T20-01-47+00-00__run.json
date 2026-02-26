@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-02-26T20:01:47+00:00",
+  "query": "What quantitative evidence exists that AI coding assistants increase task completion speed?",
+  "retrieval_query": "\"Quantitative studies on AI coding assistant effectiveness: task completion speed increase metrics for specific methods and years.\"",
+  "query_rewritten": true,
+  "rewritten_query": "\"Quantitative studies on AI coding assistant effectiveness: task completion speed increase metrics for specific methods and years.\"",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_020",
+      "distance_l2": 0.6894276738166809,
+      "text_preview": "\npasted (n = 9) AI code finished the tasks the fastest while participants who manually copied (n = 9) AI\ngenerated code or used a hybrid of both methods (n = 4) finished the task at a speed similar to the control\ncondition (No AI). There was a smaller group of participants in the AI condition who mo..."
+    },
+    {
+      "rank": 2,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_014",
+      "distance_l2": 0.7046821117401123,
+      "text_preview": "50\n60\n70\nScore %\nQuiz Score % by Subarea and Condition\nCondition\nAI\nNo AI\nFigure 8: Score breakdown by questions type relating to each task and skill area. Debugging questions\nrevealed the largest differences in average quiz score between the treatment and control groups.\nPrior works have presented ..."
+    },
+    {
+      "rank": 3,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_018",
+      "distance_l2": 0.7181351184844971,
+      "text_preview": " AI assistant\nis produced (annotated as an AI Query event).\nSince participants could ask the AI assistant as many questions as time allowed, a handful of participants\nasked more than five questions and spent up to six minutes composing a single query during this 35-minute\nassignment (Figure 12).5 Si..."
+    },
+    {
+      "rank": 4,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_024",
+      "distance_l2": 0.7216744422912598,
+      "text_preview": "18\nscore) vs low-scoring interaction patterns (24%-39% quiz score). The high scorers only asked AI conceptual\nquestions instead of code generation or asked for explanations to accompany generated code; these usage\npatterns demonstrate a high level of cognitive engagement.\nContrary to our initial hyp..."
+    },
+    {
+      "rank": 5,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_025",
+      "distance_l2": 0.7443150281906128,
+      "text_preview": " should investigate the\nimpacts of agentic coding tools on learning outcomes and skill development.\n• Task Length: Ideally, skill formation takes place over months to years. We measured skill formation for\na specific Python library over a one-hour period. Future work should study real-world skill de..."
+    }
+  ],
+  "answer": "What quantitative evidence exists that AI coding assistants increase task completion speed?\n\nInsufficient evidence in the current corpus.\n\nHowever, based on the provided evidence, it can be noted that while there was a slight improvement in average completion time in the AI group (19.5 minutes vs 23 minutes), this difference was not significant. The study found that the biggest difference in test scores is between the debugging questions, suggesting that using AI for solely generating code without understanding may hinder skill formation.\n\nReferences:\n(SkillFormation2026, SkillFormation2026_chunk_020)\n(SkillFormation2026, SkillFormation2026_chunk_014)\n(SkillFormation2026, SkillFormation2026_chunk_018)\n(SkillFormation2026, SkillFormation2026_chunk_024)\n(SkillFormation2026, SkillFormation2026_chunk_025)",
+  "citations_found": [
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_020"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_014"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_018"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_024"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_025"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": true,
+  "references_issue": null,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

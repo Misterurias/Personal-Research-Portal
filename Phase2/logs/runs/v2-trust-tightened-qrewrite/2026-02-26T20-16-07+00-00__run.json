@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-02-26T20:16:07+00:00",
+  "query": "Is there evidence in the corpus that AI coding assistants are equally beneficial across all developer skill levels?",
+  "retrieval_query": "Evidence on equal benefits of AI coding assistants across various developer skill levels.",
+  "query_rewritten": true,
+  "rewritten_query": "Evidence on equal benefits of AI coding assistants across various developer skill levels.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_002",
+      "distance_l2": 0.7513006925582886,
+      "text_preview": " workers. As humans rely on AI for skills such as brainstorming,\nwriting, and general critical thinking, the development of these skills may be significantly altered depending\non how AI assistance is used.\nSoftware engineering, in particular, has been identified as a profession in which AI tools can..."
+    },
+    {
+      "rank": 2,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.7544832825660706,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    },
+    {
+      "rank": 3,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_034",
+      "distance_l2": 0.7571777105331421,
+      "text_preview": "ver effects enabled by AI pair programmers. \n 36 \nSecond, our work represents the first step in examining how generative AI affects core and \nperipheral developers differently. We acknowledge that beyond different levels of project familiarity, \ndevelopers may differ in motivation, ability, and pref..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CopilotExperiment2023",
+      "chunk_id": "CopilotExperiment2023_chunk_001",
+      "distance_l2": 0.7640177011489868,
+      "text_preview": "The Impact of AI on Developer Productivity:\nEvidence from GitHub Copilot\nSida Peng,1∗Eirini Kalliamvakou,2 Peter Cihon,2 Mert Demirer3\n1Microsoft Research, 14820 NE 36th St, Redmond, USA\n2GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, USA\n3MIT Sloan School of Management, 100 Main Street Cambrid..."
+    },
+    {
+      "rank": 5,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_025",
+      "distance_l2": 0.7674353122711182,
+      "text_preview": " should investigate the\nimpacts of agentic coding tools on learning outcomes and skill development.\n• Task Length: Ideally, skill formation takes place over months to years. We measured skill formation for\na specific Python library over a one-hour period. Future work should study real-world skill de..."
+    }
+  ],
+  "answer": "Is there evidence in the corpus that AI coding assistants are equally beneficial across all developer skill levels?\n\nInsufficient evidence in the current corpus.\n\nTo address this question, it would be helpful to add more data points from various developer skill levels and compare their experiences with using AI coding assistants. The existing studies primarily focus on the productivity gains of AI tools for software development tasks, but they do not explicitly investigate how different skill levels affect the benefits of AI assistance.\n\nReferences:\n(SkillFormation2026, SkillFormation2026_chunk_002)\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)",
+  "citations_found": [
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_002"
+    ],
+    [
+      "EmpiricalToolAnalysis2025",
+      "EmpiricalToolAnalysis2025_chunk_010"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": true,
+  "references_issue": null,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

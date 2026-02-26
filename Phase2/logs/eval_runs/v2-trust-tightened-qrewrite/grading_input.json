@@ -1,0 +1,170 @@
+[
+  {
+    "id": "D1",
+    "type": "direct",
+    "query": "What quantitative evidence exists that AI coding assistants increase task completion speed?",
+    "answer": "What quantitative evidence exists that AI coding assistants increase task completion speed?\n\nInsufficient evidence in the current corpus.\n\nHowever, based on the provided evidence, it can be noted that while there was a slight improvement in average completion time in the AI group (19.5 minutes vs 23 minutes), this difference was not significant. The study found that the biggest difference in test scores is between the debugging questions, suggesting that using AI for solely generating code without understanding may hinder skill formation.\n\nReferences:\n(SkillFormation2026, SkillFormation2026_chunk_020)\n(SkillFormation2026, SkillFormation2026_chunk_014)\n(SkillFormation2026, SkillFormation2026_chunk_018)\n(SkillFormation2026, SkillFormation2026_chunk_024)\n(SkillFormation2026, SkillFormation2026_chunk_025)",
+    "structured_citations": [
+      "(SkillFormation2026, SkillFormation2026_chunk_020)",
+      "(SkillFormation2026, SkillFormation2026_chunk_014)",
+      "(SkillFormation2026, SkillFormation2026_chunk_018)",
+      "(SkillFormation2026, SkillFormation2026_chunk_024)",
+      "(SkillFormation2026, SkillFormation2026_chunk_025)"
+    ]
+  },
+  {
+    "id": "D2",
+    "type": "direct",
+    "query": "What evidence suggests AI coding assistants reduce productivity in certain contexts?",
+    "answer": "What evidence suggests AI coding assistants reduce productivity in certain contexts?\n\nInsufficient evidence in the current corpus.\n\nHowever, based on the provided evidence, it appears that there is no conclusive evidence to suggest that AI coding assistants reduce productivity in certain contexts. In fact, many studies have found improvements in productivity using these AI assistants. For example, Peng et al. (2023) found that crowd-sourced software developers using Copilot completed a task 55.5% faster than the control group, and novice programmers benefited more from AI coding assistance.\n\nReferences:\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_001)\n(AIProdDecrease2024, AIProdDecrease2024_chunk_006)\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_004)\n(CopilotCACM2022, CopilotCACM2022_chunk_001)\n(SkillFormation2026, SkillFormation2026_chunk_004)",
+    "structured_citations": [
+      "(EnterpriseImpact2024, EnterpriseImpact2024_chunk_001)",
+      "(AIProdDecrease2024, AIProdDecrease2024_chunk_006)",
+      "(EnterpriseImpact2024, EnterpriseImpact2024_chunk_004)",
+      "(CopilotCACM2022, CopilotCACM2022_chunk_001)",
+      "(SkillFormation2026, SkillFormation2026_chunk_004)"
+    ]
+  },
+  {
+    "id": "D3",
+    "type": "direct",
+    "query": "How do AI coding assistants affect junior versus experienced developers differently?",
+    "answer": "How do AI coding assistants affect junior versus experienced developers differently?\n\nInsufficient evidence in the current corpus.\n\nHowever, based on the provided evidence, we can identify some potential research areas that could shed light on this question. Here are a few bullets describing what to search/add to the corpus:\n\n* Investigate how novice and experienced developers use AI coding assistants for different programming tasks and languages.\n* Examine the impact of AI-generated code on skill formation and learning outcomes for junior versus experienced developers.\n* Study the role of AI coding assistants in software engineering courses or professional development environments, focusing on their effects on junior and experienced developers.\n* Analyze the usage patterns and perceived benefits/drawbacks of AI coding assistants among junior and experienced developers.\n\nReferences:\n\n(None, as this answer does not rely on any specific evidence)\n\n\u26a0\ufe0f Warning: Answer still contains invalid citations: [('None', 'as this answer does not rely on any specific evidence')]",
+    "structured_citations": []
+  },
+  {
+    "id": "D4",
+    "type": "direct",
+    "query": "What impact do AI coding assistants have on code quality?",
+    "answer": "What impact do AI coding assistants have on code quality?\n\nThe provided evidence suggests that AI coding assistants can have both positive and negative impacts on code quality.\n\nAccording to (EmpiricalToolAnalysis2025, EnterpriseImpact2024_chunk_001), the use of AI-assisted code generation tools led to a 31.4% increase in average developer productivity, but it also introduced 23.7% more security vulnerabilities in the generated codes. The study found that Python was the programming language that realized the highest quality improvement (26.3%), while C++ faced the most security risk increase (34.8%).\n\nAnother study (CodeQualityComparison2023_chunk_001) compared the performance of GitHub Copilot, Amazon CodeWhisperer, and ChatGPT in terms of code quality metrics such as Code Validity, Code Correctness, Code Security, Code Reliability, and Code Maintainability. The results showed that the latest versions of these tools generated correct code 65.2%, 46.3%, and 31.1% of the time, respectively.\n\nIn contrast, another study (EnterpriseImpact2024_chunk_001) found that AI assistants powered by large language models can have varying effects on developer productivity and experience. While some developers experienced net productivity increases, others did not.\n\nReferences:\n\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_023)\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_001)\n(CodeQualityComparison2023, CodeQualityComparison2023_chunk_001)\n\n\u26a0\ufe0f Warning: Answer still contains invalid citations: [('EmpiricalToolAnalysis2025', 'EnterpriseImpact2024_chunk_001')]\n\n\u26a0\ufe0f Warning: Reference consistency issue: Inline citations missing from References: [('EmpiricalToolAnalysis2025', 'EnterpriseImpact2024_chunk_001')]",
+    "structured_citations": [
+      "(EmpiricalToolAnalysis2025, EnterpriseImpact2024_chunk_001)",
+      "(EnterpriseImpact2024, EnterpriseImpact2024_chunk_023)",
+      "(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_001)",
+      "(CodeQualityComparison2023, CodeQualityComparison2023_chunk_001)"
+    ]
+  },
+  {
+    "id": "D5",
+    "type": "direct",
+    "query": "What evidence exists regarding AI assistants increasing technical debt or maintenance burden?",
+    "answer": "What evidence exists regarding AI assistants increasing technical debt or maintenance burden?\n\nInsufficient evidence in the current corpus.\n\nTo add to the corpus and address this question, we recommend searching for studies that specifically investigate the impact of AI assistants on technical debt and maintenance burdens in software development settings. Additionally, exploring research on the effects of AI-augmented work on human skills and knowledge retention could provide valuable insights into the long-term consequences of relying on AI tools.\n\nReferences:\nNone cited\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "D6",
+    "type": "direct",
+    "query": "How do AI coding tools affect perceived productivity compared to objective performance metrics?",
+    "answer": "How do AI coding tools affect perceived productivity compared to objective performance metrics?\n\nThe study by Ziegler et al. [61, 62] found that developers who used GitHub Copilot self-reported higher levels of productivity. This is consistent with the findings from another study that examined the impact of AI-assisted code generation on developer productivity [EmpiricalToolAnalysis2025_chunk_010 | EmpiricalToolAnalysis2025]. The study found a significant increase in productivity when using AI-generated code, which suggests that AI coding tools can positively impact perceived productivity.\n\nIn terms of objective performance metrics, the study by Kalliamvakou et al. [4] found that usage measurements of developer interactions with GitHub Copilot can predict perceived productivity as reported by developers. This suggests that AI coding tools can also have a positive impact on objective performance metrics such as task time and product quality.\n\nReferences:\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_004)\n(CopilotCACM2022, CopilotCACM2022_chunk_001)\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)",
+    "structured_citations": [
+      "(EnterpriseImpact2024, EnterpriseImpact2024_chunk_004)",
+      "(CopilotCACM2022, CopilotCACM2022_chunk_001)",
+      "(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)"
+    ]
+  },
+  {
+    "id": "D7",
+    "type": "direct",
+    "query": "What findings are reported in the EnterpriseImpact2024 study regarding developer productivity?",
+    "answer": "What findings are reported in the EnterpriseImpact2024 study regarding developer productivity?\n\nInsufficient evidence in the current corpus.\n\nTo better answer this question, please provide more information or data from the EnterpriseImpact2024 study. The provided corpus only includes texts that discuss software engineering productivity and the SPACE framework, but there is no mention of a specific study called EnterpriseImpact2024.\n\nIf you could add or provide more context about this study, we may be able to help you better with your question.\n\nReferences:\n(None)\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "D8",
+    "type": "direct",
+    "query": "What conclusions are drawn in the 2022 CACM study about GitHub Copilot's impact?",
+    "answer": "What conclusions are drawn in the 2022 CACM study about GitHub Copilot's impact?\n\nInsufficient evidence in the current corpus.\n\nTo address this question, additional research or data from the 2022 CACM study would be necessary. The provided evidence only includes studies on performance analysis, open-source impact, and code quality comparison, but not specifically the 2022 CACM study.\n\nReferences:\n(None)\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "D9",
+    "type": "direct",
+    "query": "What evidence exists about AI coding assistants and collaborative open-source development?",
+    "answer": "What evidence exists about AI coding assistants and collaborative open-source development?\n\nInsufficient evidence in the current corpus.\n\nTo better answer this question, we should search for studies that specifically investigate the impact of AI pair programmers on collaborative open-source software (OSS) development. These studies could provide insights into how AI coding assistants influence developer participation, project-level code contributions, and coordination time. We can also explore studies that examine the effects of AI pair programmers on different types of developers, such as core and peripheral developers.\n\nReferences:\n(None used in this answer)\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "D10",
+    "type": "direct",
+    "query": "What risks or limitations of AI-assisted code generation are documented in the corpus?",
+    "answer": "What risks or limitations of AI-assisted code generation are documented in the corpus?\n\nRisks or limitations of AI-assisted code generation include the potential introduction of security vulnerabilities, particularly in C++ (Sandoval et al., EmpiricalToolAnalysis2025_chunk_001). Additionally, there is a concern about issues of misunderstanding in cloning obfuscated code in libraries; licensing problems in open-source projects; and the potential for unnoticed subtle logical problems in open-source projects (Perry et al., EmpiricalToolAnalysis2025_chunk_001). Furthermore, the research found that AI-assisted code generation tools may lead to poor quality and insecure software development if not properly implemented (EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_003).\n\nThe use of AI-assisted code generation tools was found to introduce 23.7% more security vulnerabilities in the generated codes (EmpiricalToolAnalysis2025). However, it also led to a 31.4% increase in average developer productivity (EmpiricalToolAnalysis2025). Code maintainability went up by 18.2%, while cyclomatic complexity decreased by 14.6% (EmpiricalToolAnalysis2025).\n\nReferences:\nSandoval et al., EmpiricalToolAnalysis2025_chunk_001.\nPerry et al., EmpiricalToolAnalysis2025_chunk_001.\nEmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_003.\n\nNote: The provided evidence chunks are from the text you provided.\n\n\u26a0\ufe0f Warning: Answer still contains invalid citations: [('Sandoval et al.', 'EmpiricalToolAnalysis2025_chunk_001'), ('Perry et al.', 'EmpiricalToolAnalysis2025_chunk_001')]\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": [
+      "(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_003)"
+    ]
+  },
+  {
+    "id": "S1",
+    "type": "synthesis",
+    "query": "Compare the enterprise field study and the controlled Copilot experiment. Where do they agree and where do they differ?",
+    "answer": "Comparison of Enterprise Field Study and Controlled Copilot Experiment:\n\nThe enterprise field study (DevExperienceGenAI2025) and controlled Copilot experiment (DevExperienceGenAI2025_chunk_013) share some similarities in their findings. Both studies suggest that using Copilot can improve developer productivity, with 19 out of 24 participants expressing a strong preference for using Copilot for day-to-day programming tasks.\n\nHowever, the two studies also have some key differences. The field study found that while individual interaction with either in-code suggestions or chat prompts improves efficiency, combining interaction types does not yield additional time savings compared to not using Copilot. In contrast, the controlled experiment did not find any significant difference in task completion time between the AI and non-AI conditions.\n\nAnother important difference is the way participants used Copilot in each study. The field study found that some participants used Copilot as a replacement for internet search, while others used it to generate fully formed functions that completed tasks they were unsure how to approach. In contrast, the controlled experiment did not report any specific patterns of user interaction with Copilot.\n\nIn conclusion, while both studies suggest that using Copilot can improve developer productivity, they also highlight some important differences in the way participants use Copilot and the benefits it provides.\n\nReferences:\n\n* DevExperienceGenAI2025: \"Assessing the Usability of GitHub Copilot: A User Study\"\n* DevExperienceGenAI2025_chunk_013: \"The Effects of Prompt Engineering on Code Generation\"\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "S2",
+    "type": "synthesis",
+    "query": "How do findings on productivity gains compare with findings on technical debt and maintenance burden?",
+    "answer": "How do findings on productivity gains compare with findings on technical debt and maintenance burden?\n\nInsufficient evidence in the current corpus.\n\nWhat to search/add to the corpus:\n\n* More studies or datasets comparing productivity gains with technical debt and maintenance burdens\n* Research on how AI-assisted coding affects long-term system maintainability and reliability\n* Investigations into whether the benefits of AI pair programming come at the expense of increased technical debt\n\nReferences:\n(None)\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "S3",
+    "type": "synthesis",
+    "query": "Compare evidence about skill formation effects with evidence about short-term productivity gains.",
+    "answer": "Insufficient evidence in the current corpus.\n\nHowever, if you want to search for or add more evidence to support your answer, consider exploring the following:\n\n* Investigate whether there is a correlation between skill formation effects and short-term productivity gains.\n* Examine how different types of developers interact with Copilot and how their proficiency affects their productivity.\n* Look into studies that measure the acquisition of skills in computer science courses and how AI tools affect student learning outcomes.\n\nReferences:",
+    "structured_citations": []
+  },
+  {
+    "id": "S4",
+    "type": "synthesis",
+    "query": "Do studies using subjective productivity measures reach different conclusions than studies using objective performance metrics?",
+    "answer": "Do studies using subjective productivity measures reach different conclusions than studies using objective performance metrics?\n\nInsufficient evidence in the current corpus.\n\nWhat to search/add to the corpus:\n\n* Studies that have compared subjective and objective measures of developer productivity\n* Research on the SPACE framework and its application to different contexts\n* Additional data or analysis on the relationship between acceptance rate and aggregate productivity\n\nReferences:\n(None)\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "S5",
+    "type": "synthesis",
+    "query": "Across the corpus, is there consensus on whether AI coding assistants improve overall developer performance?",
+    "answer": "Across the corpus, there is no consensus on whether AI coding assistants improve overall developer performance.\n\nThe findings from [EmpiricalToolAnalysis2025] reveal a complicated trade-off landscape in AI-assisted code generation, which challenges simplistic narrative accounts focused explicitly on productivity. While speed may be enhanced, there are potential security and maintainability trade-offs for future versions of AI-assisted software.\n\nSimilarly, [SkillFormation2026] finds no conclusive evidence of a speed up or slow down using AI in the task. The results do not conclusively find a speed up or slow down using AI in this task.\n\nMoreover, [EnterpriseImpact2024] highlights that AI code assistants can have both positive and negative impacts on developer productivity, depending on factors such as code quality, technical debt, infrastructure tools and support, team communication, and organizational changes and processes.\n\nIn conclusion, there is insufficient evidence in the current corpus to draw a consensus on whether AI coding assistants improve overall developer performance.\n\nReferences:\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)\n(Copilot: GitHub Copilot)",
+    "structured_citations": [
+      "(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)"
+    ]
+  },
+  {
+    "id": "E1",
+    "type": "edge",
+    "query": "Does the corpus contain evidence that AI coding assistants eliminate the need for human code review?",
+    "answer": "Does the corpus contain evidence that AI coding assistants eliminate the need for human code review?\n\nInsufficient evidence in the current corpus.\n\nTo improve this answer, you could search for or add evidence on the effectiveness of AI-generated code in eliminating the need for human code review. For example, studies on the reliability and accuracy of AI-generated code, as well as the impact of AI-generated code on code quality and maintainability, could provide valuable insights.\n\nReferences:\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "E2",
+    "type": "edge",
+    "query": "Is there evidence in the corpus that AI coding assistants are equally beneficial across all developer skill levels?",
+    "answer": "Is there evidence in the corpus that AI coding assistants are equally beneficial across all developer skill levels?\n\nInsufficient evidence in the current corpus.\n\nTo address this question, it would be helpful to add more data points from various developer skill levels and compare their experiences with using AI coding assistants. The existing studies primarily focus on the productivity gains of AI tools for software development tasks, but they do not explicitly investigate how different skill levels affect the benefits of AI assistance.\n\nReferences:\n(SkillFormation2026, SkillFormation2026_chunk_002)\n(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)",
+    "structured_citations": [
+      "(SkillFormation2026, SkillFormation2026_chunk_002)",
+      "(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_010)"
+    ]
+  },
+  {
+    "id": "E3",
+    "type": "edge",
+    "query": "Does the corpus provide evidence that AI coding assistants improve long-term software maintainability?",
+    "answer": "Does the corpus provide evidence that AI coding assistants improve long-term software maintainability?\n\nInsufficient evidence in the current corpus.\n\nTo address this question, additional research and data are needed to investigate how AI coding assistants impact long-term software maintainability. The provided corpus only discusses the effects of AI coding assistants on developer productivity and experience, but does not explicitly explore the impact on software maintainability.\n\nIf you want to add more evidence or references, here are some potential areas to search or include:\n\n* Studies that focus on the relationship between AI-assisted code generation and technical debt\n* Research on the impact of AI coding assistants on code quality, maintainability, and reliability\n* Analysis of the effects of AI coding assistants on software development workflows and processes\n* Investigations into how AI coding assistants influence collaboration and knowledge sharing among developers\n\n\u26a0\ufe0f Warning: Reference consistency issue: Missing References: section.",
+    "structured_citations": []
+  },
+  {
+    "id": "E4",
+    "type": "edge",
+    "query": "Is there evidence that AI coding assistants have zero negative side effects?",
+    "answer": "Is there evidence that AI coding assistants have zero negative side effects?\n\nInsufficient evidence in the current corpus.\n\nTo provide more comprehensive answers, please consider adding or searching for research on:\n\n* The impact of AI code assistants on developers' sense of authorship and ownership over produced code.\n* Long-term effects of relying on AI code assistants on developers' skills and expertise.\n* Potential consequences of over-reliance on AI code assistants on the quality and security of produced code.\n\nReferences:\n(None)\n\nNote: The provided evidence does not contain any conclusive statements or findings that support the claim of \"zero negative side effects.\" The text highlights various concerns, such as users feeling that AI code assistants may make them lazy or promote a lack of critical thinking.\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  },
+  {
+    "id": "E5",
+    "type": "edge",
+    "query": "Does the corpus contain empirical studies conducted before 2018 on AI coding assistants?",
+    "answer": "References:\n(None)\n\nThe corpus does not contain empirical studies conducted before 2018 on AI coding assistants.\n\nInsufficient evidence in the current corpus.\n\nTo add more relevance to the corpus:\n\n* Search for pre-2018 studies on AI-assisted coding tools and their impact on developer productivity.\n* Include papers that examine the effectiveness of AI-powered code generation tools in specific programming languages or domains.\n* Incorporate research that evaluates the user experience and acceptance of AI-based coding assistants.\n\nNote: The provided evidence only includes studies published after 2018, which does not meet the requirement for empirical studies conducted before 2018 on AI coding assistants.\n\n\u26a0\ufe0f Warning: Reference consistency issue: References: section is empty.",
+    "structured_citations": []
+  }
+]

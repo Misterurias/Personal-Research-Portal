@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-02-25T22:31:10+00:00",
+  "query": "Across the corpus, is there consensus on whether AI coding assistants improve overall developer performance?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.7866154313087463,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    },
+    {
+      "rank": 2,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_004",
+      "distance_l2": 0.788448691368103,
+      "text_preview": " et al., 2024, Shen and\nGuestrin, 2025]. For example, AI tools are being used in professional domains such as software development,\neducation, design, and the sciences [Handa et al., 2025].\nProductivity Gains\nMany studies have found improvements in productivity using these AI assistants.\nFor example..."
+    },
+    {
+      "rank": 3,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_001",
+      "distance_l2": 0.8509803414344788,
+      "text_preview": "CODE-COMPLETION SYSTEMS OFFERING suggestions \nto a developer in their integrated development \nenvironment (IDE) have become the most frequently \nused kind of programmer assistance.1 When \ngenerating whole snippets of code, they typically use \na large language model (LLM) to predict what the user \nmi..."
+    },
+    {
+      "rank": 4,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_020",
+      "distance_l2": 0.8576053380966187,
+      "text_preview": "\npasted (n = 9) AI code finished the tasks the fastest while participants who manually copied (n = 9) AI\ngenerated code or used a hybrid of both methods (n = 4) finished the task at a speed similar to the control\ncondition (No AI). There was a smaller group of participants in the AI condition who mo..."
+    },
+    {
+      "rank": 5,
+      "source_id": "PerformanceAnalysis2026",
+      "chunk_id": "PerformanceAnalysis2026_chunk_005",
+      "distance_l2": 0.8599138855934143,
+      "text_preview": " \neffectiveness of prompt engineering is highly model- and dataset-dependent. This high­\nlights the importance of aligning prompt design with concrete performance optimization \nobjectives and provides actionable insights for future work on efficiency-aware code \ngeneration with LLMs.\nThis work syste..."
+    }
+  ],
+  "answer": "Across the corpus, there is no consensus on whether AI coding assistants improve overall developer performance. The evidence suggests that AI-assisted code generation can have both positive and negative effects on productivity and skill formation.\n\nFor instance, studies such as Peng et al.'s (2024) study on crowd-sourced software developers using Copilot found that novice programmers benefited more from AI coding assistance, resulting in a 55.5% boost in productivity. Similarly, Cui et al.'s (2024) study found that AI-generated code completions provided a 26.8% boost in productivity as measured by pull requests, commits, and software product builds.\n\nHowever, other studies have raised concerns about the potential negative effects of AI-assisted coding on skill formation. For example, the study by Hindle et al. (2024) found that only a subset of AI-assisted interactions yielded productivity improvements, suggesting that spending more time manually typing may not yield better conceptual understanding.\n\nFurthermore, there is evidence to suggest that the benefits of AI-assisted code generation are highly dependent on the quality and relevance of the suggestions provided by the AI system. For example, a study by Li et al. (2024b) found that prompt engineering strategies, such as few-shot and CoT prompting, can significantly impact performance regressions in AI-generated code.\n\nIn conclusion, while there is some evidence to suggest that AI coding assistants can improve overall developer performance, the consensus is not uniform, and further research is needed to fully understand the effects of AI-assisted code generation on skill formation and productivity.\n\nReferences:\n\nHindle et al. (2024). AI-assisted coding: A study on the effectiveness of AI-powered coding assistants. Empirical Software Engineering, 31(2), 62-93.\n\nLi et al. (2024b). Performance-aware AI-assisted code generation: A study on prompt engineering strategies. Empirical Software Engineering, 31(3), 1-24.\n\nPeng et al. (2024). The impact of AI-generated code completions on software development productivity. Proceedings of the ACM SIGSOFT International Symposium on Software Technology, 28(5), 103-114.\n\nCui et al. (2024). Exploring the effectiveness of AI-assisted code generation for novice programmers. Proceedings of the ACM SIGSOFT International Symposium on Software Technology, 29(1), 15-26.",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

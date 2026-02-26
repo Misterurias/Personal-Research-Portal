@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-26T20:18:39+00:00",
+  "query": "Does the corpus contain empirical studies conducted before 2018 on AI coding assistants?",
+  "retrieval_query": "corpus contains empirical studies published before 2018 on artificial intelligence coding assistants.",
+  "query_rewritten": true,
+  "rewritten_query": "corpus contains empirical studies published before 2018 on artificial intelligence coding assistants.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_023",
+      "distance_l2": 0.754584789276123,
+      "text_preview": " vs. experience: Evaluating the usability of code generation tools\npowered by large language models. In Chi conference on human factors in computing systems extended abstracts. 1–7.\n[51] Dakuo Wang, Justin D Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulow..."
+    },
+    {
+      "rank": 2,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_002",
+      "distance_l2": 0.7798442840576172,
+      "text_preview": " code \ngeneration tools, which are based on huge language models that have been trained with billions of lines \nof code, have been identified as the most powerful of the innovative technologies that will significantly \ncontribute to the developer's productivity, lessening of cognitive burden, and sp..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_003",
+      "distance_l2": 0.7954612970352173,
+      "text_preview": " assistants can aid sensemaking tasks in code repositories.\n• We identify a shared responsibility between people and AI systems in mitigating the risks of generated outputs.\n2\nRelated Work\nWe outline three areas relevant to our study of AI code assistants: code-fluent LLMs and their incorporation in..."
+    },
+    {
+      "rank": 4,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_008",
+      "distance_l2": 0.8217517733573914,
+      "text_preview": " record retrieval function that can handle missing record\nerrors in the Trio library. This task introduces concepts such as error handling and memory channels to\nstore results. These two tasks are standalone; we provide sufficient instructions and usage examples so that\nparticipants can complete one..."
+    },
+    {
+      "rank": 5,
+      "source_id": "CopilotExperiment2023",
+      "chunk_id": "CopilotExperiment2023_chunk_008",
+      "distance_l2": 0.8402228355407715,
+      "text_preview": " al. (2021). Evaluating large language\nmodels trained on code. arXiv preprint arXiv:2107.03374.\n[Finnie-Ansley et al., 2022] Finnie-Ansley, J., Denny, P., Becker, B. A., Luxton-Reilly, A., and\nPrather, J. (2022). The robots are coming: Exploring the implications of openai codex on\nintroductory progr..."
+    }
+  ],
+  "answer": "References:\n(None)\n\nThe corpus does not contain empirical studies conducted before 2018 on AI coding assistants.\n\nInsufficient evidence in the current corpus.\n\nTo add more relevance to the corpus:\n\n* Search for pre-2018 studies on AI-assisted coding tools and their impact on developer productivity.\n* Include papers that examine the effectiveness of AI-powered code generation tools in specific programming languages or domains.\n* Incorporate research that evaluates the user experience and acceptance of AI-based coding assistants.\n\nNote: The provided evidence only includes studies published after 2018, which does not meet the requirement for empirical studies conducted before 2018 on AI coding assistants.",
+  "citations_found": [],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": false,
+  "references_issue": "References: section is empty.",
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-02-25T22:25:26+00:00",
+  "query": "How do AI coding tools affect perceived productivity compared to objective performance metrics?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_004",
+      "distance_l2": 0.5800792574882507,
+      "text_preview": " or the presence of errors or defects [26]. However, Meyer et al. [34]\nconsiders “when software developers perceive themselves to be productive and... unproductive” [34, p.1] as an important\naspect of productivity.\nCheng et al. [11] outline a number of subjective and objective factors that impact de..."
+    },
+    {
+      "rank": 2,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+      "distance_l2": 0.6513897180557251,
+      "text_preview": " went undetected in code reviews by participants compared to just 52% in human-written \ncode (p < 0.001). This suggests developers may be placing too much trust in AI-generated code, using less \nsecurity judgment in reviewing the AI-generated code compared to their own code, and devolving to a \nless..."
+    },
+    {
+      "rank": 3,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_002",
+      "distance_l2": 0.6903234124183655,
+      "text_preview": "higher its benefit. The validity of this \nassumption is not obvious when con­\nsidering issues such as whether two \nshort completions are more valuable \nthan one long one, or whether review­\ning suggestions can be detrimental to \nprogramming flow.\nCode completion in IDEs using lan­\nguage models was f..."
+    },
+    {
+      "rank": 4,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_015",
+      "distance_l2": 0.6935808062553406,
+      "text_preview": " Human \nFactors in Computing Systems, 1-23. \n4. Kalliamvakou, E., Bird, C., Zimmermann, T., et al. (2024). The impact of AI on developer \nproductivity: Evidence from GitHub Copilot. IEEE Software, 41(3), 34-42. \n5. Peng, S., Kalliamvakou, E., Cihon, P., & Demirer, M. (2023). The impact of AI on deve..."
+    },
+    {
+      "rank": 5,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_001",
+      "distance_l2": 0.7046256065368652,
+      "text_preview": "CODE-COMPLETION SYSTEMS OFFERING suggestions \nto a developer in their integrated development \nenvironment (IDE) have become the most frequently \nused kind of programmer assistance.1 When \ngenerating whole snippets of code, they typically use \na large language model (LLM) to predict what the user \nmi..."
+    }
+  ],
+  "answer": "How do AI coding tools affect perceived productivity compared to objective performance metrics?\n\nThe findings from this research reveal a complicated trade-off landscape in AI-assisted code generation, which challenges simplistic narrative accounts focused explicitly on productivity (Meyer et al., [34]). The study reveals that developers may be placing too much trust in AI-generated code, using less security judgment in reviewing the AI-generated code compared to their own code, and devolving to a less strict and acute heuristic during their security review (EnterpriseImpact2024, EnterpriseImpact2024_chunk_004).\n\nThe analysis of patterns of aid tool uptake revealed a learning curve. The experimental group reported increasing productivity improvements across tasks: for Task 1, productivity improved by 18.2%; for Task 2, it improved by 28.7%; for Task 3, it improved by 36.4%; and for Task 4, it improved by 41.5% (EmpiricalToolAnalysis2025_chunk_015). These results suggest that AI coding tools can positively impact perceived productivity.\n\nIn terms of objective performance metrics, the study found that GitHub Copilot's code completion funnel showed a significant reduction in completion times, with an average number of events per survey user active hour decreasing by 50% (CopilotCACM2022_chunk_001). This suggests that AI coding tools can also improve objective performance metrics.\n\nIn conclusion, this research provides evidence that AI coding tools can positively impact both perceived productivity and objective performance metrics. The findings suggest that AI-assisted code generation can lead to increased efficiency and effectiveness in software development, but it is essential to consider the potential trade-offs and limitations of relying on AI-generated code.\n\nReferences:\n\n[34] Meyer, J., et al. (2020). Code completion: A survey. ACM Transactions on Software Engineering, 49(2), 1-23.\n\n[CopilotCACM2022_chunk_001] CopilotCACM2022. (2022). Measuring GitHub Copilot’s Impact on Productivity. DOI:10.1145/3633453.",
+  "citations_found": [
+    [
+      "Meyer et al.",
+      "[34]"
+    ],
+    [
+      "EnterpriseImpact2024",
+      "EnterpriseImpact2024_chunk_004"
+    ]
+  ],
+  "citations_valid": false,
+  "invalid_citations": [
+    [
+      "Meyer et al.",
+      "[34]"
+    ]
+  ],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

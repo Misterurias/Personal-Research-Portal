@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-25T22:34:23+00:00",
+  "query": "Does the corpus contain empirical studies conducted before 2018 on AI coding assistants?",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_023",
+      "distance_l2": 0.7998781204223633,
+      "text_preview": " vs. experience: Evaluating the usability of code generation tools\npowered by large language models. In Chi conference on human factors in computing systems extended abstracts. 1–7.\n[51] Dakuo Wang, Justin D Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulow..."
+    },
+    {
+      "rank": 2,
+      "source_id": "CopilotExperiment2023",
+      "chunk_id": "CopilotExperiment2023_chunk_008",
+      "distance_l2": 0.8120645880699158,
+      "text_preview": " al. (2021). Evaluating large language\nmodels trained on code. arXiv preprint arXiv:2107.03374.\n[Finnie-Ansley et al., 2022] Finnie-Ansley, J., Denny, P., Becker, B. A., Luxton-Reilly, A., and\nPrather, J. (2022). The robots are coming: Exploring the implications of openai codex on\nintroductory progr..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_002",
+      "distance_l2": 0.8363097906112671,
+      "text_preview": " code \ngeneration tools, which are based on huge language models that have been trained with billions of lines \nof code, have been identified as the most powerful of the innovative technologies that will significantly \ncontribute to the developer's productivity, lessening of cognitive burden, and sp..."
+    },
+    {
+      "rank": 4,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_003",
+      "distance_l2": 0.8596159815788269,
+      "text_preview": " assistants can aid sensemaking tasks in code repositories.\n• We identify a shared responsibility between people and AI systems in mitigating the risks of generated outputs.\n2\nRelated Work\nWe outline three areas relevant to our study of AI code assistants: code-fluent LLMs and their incorporation in..."
+    },
+    {
+      "rank": 5,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_010",
+      "distance_l2": 0.9048004150390625,
+      "text_preview": " tool is so new and very few people on my team use it. There is an inherent suspicion against\nAI-generated code.” Although only two respondents raised this issue, it may be important for organizational leaders to\nfoster a culture in which AI assistance is viewed as acceptable to garner wide-spread a..."
+    }
+  ],
+  "answer": "References:\n\n* (EnterpriseImpact2024, EnterpriseImpact2024_chunk_023)\n\nThe corpus does contain empirical studies conducted before 2018 on AI coding assistants. Specifically, the study \"Evaluating large language models trained on code\" by [CopilotExperiment2023] in 2021 is an example of such a study.",
+  "citations_found": [
+    [
+      "EnterpriseImpact2024",
+      "EnterpriseImpact2024_chunk_023"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v1-baseline-grounded"
+}

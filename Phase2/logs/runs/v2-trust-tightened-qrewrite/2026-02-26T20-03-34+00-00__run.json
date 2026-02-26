@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-02-26T20:03:34+00:00",
+  "query": "How do AI coding assistants affect junior versus experienced developers differently?",
+  "retrieval_query": "Impact of AI coding assistants on junior and experienced software developers.",
+  "query_rewritten": true,
+  "rewritten_query": "Impact of AI coding assistants on junior and experienced software developers.",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_006",
+      "distance_l2": 0.688597559928894,
+      "text_preview": " code, fix\nerrors, and explain algorithmic concepts; students with less coding proficiency were more likely to seek AI\nassistance. Other works use surveys to find that students may be hesitant to use AI coding assistant tools\ndue to “dependence worry” (i.e., overreliance on coding tools) [Pan et al...."
+    },
+    {
+      "rank": 2,
+      "source_id": "EmpiricalToolAnalysis2025",
+      "chunk_id": "EmpiricalToolAnalysis2025_chunk_014",
+      "distance_l2": 0.7042890787124634,
+      "text_preview": " 23.7% and a total increase in critical severity of 89%. We also demonstrate \nthat some dimensions of code quality are improved with AI-assisted code generation tools (i.e., \nmaintainability, cyclomatic complexity) but caution is warranted with operational risks, to code itself (i.e. \nextra code dup..."
+    },
+    {
+      "rank": 3,
+      "source_id": "NoviceProgramming2024",
+      "chunk_id": "NoviceProgramming2024_chunk_001",
+      "distance_l2": 0.707027018070221,
+      "text_preview": "Citation: Zviel-Girshin, R. The Good\nand Bad of AI Tools in Novice\nProgramming Education. Educ. Sci.\n2024, 14, 1089. https://doi.org/\n10.3390/educsci14101089\nAcademic Editors: Julie Delello and\nRochell McWhorter\nReceived: 26 August 2024\nRevised: 29 September 2024\nAccepted: 30 September 2024\nPublishe..."
+    },
+    {
+      "rank": 4,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_002",
+      "distance_l2": 0.7086303234100342,
+      "text_preview": " workers. As humans rely on AI for skills such as brainstorming,\nwriting, and general critical thinking, the development of these skills may be significantly altered depending\non how AI assistance is used.\nSoftware engineering, in particular, has been identified as a profession in which AI tools can..."
+    },
+    {
+      "rank": 5,
+      "source_id": "OpenSourceImpact2024",
+      "chunk_id": "OpenSourceImpact2024_chunk_034",
+      "distance_l2": 0.7117713093757629,
+      "text_preview": "ver effects enabled by AI pair programmers. \n 36 \nSecond, our work represents the first step in examining how generative AI affects core and \nperipheral developers differently. We acknowledge that beyond different levels of project familiarity, \ndevelopers may differ in motivation, ability, and pref..."
+    }
+  ],
+  "answer": "How do AI coding assistants affect junior versus experienced developers differently?\n\nInsufficient evidence in the current corpus.\n\nHowever, based on the provided evidence, we can identify some potential research areas that could shed light on this question. Here are a few bullets describing what to search/add to the corpus:\n\n* Investigate how novice and experienced developers use AI coding assistants for different programming tasks and languages.\n* Examine the impact of AI-generated code on skill formation and learning outcomes for junior versus experienced developers.\n* Study the role of AI coding assistants in software engineering courses or professional development environments, focusing on their effects on junior and experienced developers.\n* Analyze the usage patterns and perceived benefits/drawbacks of AI coding assistants among junior and experienced developers.\n\nReferences:\n\n(None, as this answer does not rely on any specific evidence)",
+  "citations_found": [
+    [
+      "None",
+      "as this answer does not rely on any specific evidence"
+    ]
+  ],
+  "citations_valid": false,
+  "invalid_citations": [
+    [
+      "None",
+      "as this answer does not rely on any specific evidence"
+    ]
+  ],
+  "references_consistent": true,
+  "references_issue": null,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}

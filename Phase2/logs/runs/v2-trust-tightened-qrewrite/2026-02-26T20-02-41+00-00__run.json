@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-02-26T20:02:41+00:00",
+  "query": "What evidence suggests AI coding assistants reduce productivity in certain contexts?",
+  "retrieval_query": "\"AI coding assistant impact on productivity in specific contexts\"",
+  "query_rewritten": true,
+  "rewritten_query": "\"AI coding assistant impact on productivity in specific contexts\"",
+  "top_k": 5,
+  "retrieved": [
+    {
+      "rank": 1,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_001",
+      "distance_l2": 0.7283914685249329,
+      "text_preview": "Examining the Use and Impact of an AI Code Assistant on Developer\nProductivity and Experience in the Enterprise\nJUSTIN D. WEISZ, IBM Research, USA\nSHRADDHA KUMAR∗, Cisco Systems, Inc., India\nMICHAEL MULLER, IBM Research, USA\nKAREN-ELLEN BROWNE, IBM Software, Ireland\nARIELLE GOLDBERG, IBM Infrastruct..."
+    },
+    {
+      "rank": 2,
+      "source_id": "AIProdDecrease2024",
+      "chunk_id": "AIProdDecrease2024_chunk_006",
+      "distance_l2": 0.7486060857772827,
+      "text_preview": " than the control group (Peng et al. 2023). Another\nstudy by GitHub reports that the use of Copilot Chat increases programmers’ confidence, with participants\nself-reporting improvements in code readability, reusability, conciseness, maintainability, and resilience\n(Rodriguez 2023). These productivit..."
+    },
+    {
+      "rank": 3,
+      "source_id": "EnterpriseImpact2024",
+      "chunk_id": "EnterpriseImpact2024_chunk_004",
+      "distance_l2": 0.7600388526916504,
+      "text_preview": " or the presence of errors or defects [26]. However, Meyer et al. [34]\nconsiders “when software developers perceive themselves to be productive and... unproductive” [34, p.1] as an important\naspect of productivity.\nCheng et al. [11] outline a number of subjective and objective factors that impact de..."
+    },
+    {
+      "rank": 4,
+      "source_id": "CopilotCACM2022",
+      "chunk_id": "CopilotCACM2022_chunk_001",
+      "distance_l2": 0.7636401653289795,
+      "text_preview": "CODE-COMPLETION SYSTEMS OFFERING suggestions \nto a developer in their integrated development \nenvironment (IDE) have become the most frequently \nused kind of programmer assistance.1 When \ngenerating whole snippets of code, they typically use \na large language model (LLM) to predict what the user \nmi..."
+    },
+    {
+      "rank": 5,
+      "source_id": "SkillFormation2026",
+      "chunk_id": "SkillFormation2026_chunk_004",
+      "distance_l2": 0.7654828429222107,
+      "text_preview": " et al., 2024, Shen and\nGuestrin, 2025]. For example, AI tools are being used in professional domains such as software development,\neducation, design, and the sciences [Handa et al., 2025].\nProductivity Gains\nMany studies have found improvements in productivity using these AI assistants.\nFor example..."
+    }
+  ],
+  "answer": "What evidence suggests AI coding assistants reduce productivity in certain contexts?\n\nInsufficient evidence in the current corpus.\n\nHowever, based on the provided evidence, it appears that there is no conclusive evidence to suggest that AI coding assistants reduce productivity in certain contexts. In fact, many studies have found improvements in productivity using these AI assistants. For example, Peng et al. (2023) found that crowd-sourced software developers using Copilot completed a task 55.5% faster than the control group, and novice programmers benefited more from AI coding assistance.\n\nReferences:\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_001)\n(AIProdDecrease2024, AIProdDecrease2024_chunk_006)\n(EnterpriseImpact2024, EnterpriseImpact2024_chunk_004)\n(CopilotCACM2022, CopilotCACM2022_chunk_001)\n(SkillFormation2026, SkillFormation2026_chunk_004)",
+  "citations_found": [
+    [
+      "EnterpriseImpact2024",
+      "EnterpriseImpact2024_chunk_001"
+    ],
+    [
+      "AIProdDecrease2024",
+      "AIProdDecrease2024_chunk_006"
+    ],
+    [
+      "EnterpriseImpact2024",
+      "EnterpriseImpact2024_chunk_004"
+    ],
+    [
+      "CopilotCACM2022",
+      "CopilotCACM2022_chunk_001"
+    ],
+    [
+      "SkillFormation2026",
+      "SkillFormation2026_chunk_004"
+    ]
+  ],
+  "citations_valid": true,
+  "invalid_citations": [],
+  "references_consistent": true,
+  "references_issue": null,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "ollama_model": "llama3",
+  "prompt_version": "v2-trust-tightened-qrewrite"
+}
