@@ -13,13 +13,9 @@ Phases: 2 (Research-Grade RAG) + 3 (Research Portal Product)
 Impact of AI coding assistants (e.g., GitHub Copilot, CodeWhisperer, ChatGPT) on:
 
 -   Developer productivity
-
 -   Code quality
-
 -   Skill formation
-
 -   Technical debt
-
 -   Long-term maintainability
 
 * * * * *
@@ -38,26 +34,18 @@ Phase 2 --- Research-Grade RAG
 ----------------------------
 
 -   Structured citations
-
 -   Traceable chunk-level evidence
-
 -   Logged retrieval + generation
-
 -   Reproducible evaluation pipeline
-
 -   Trust safeguards (no fabricated citations)
 
 Phase 3 --- Research Portal Product
 ---------------------------------
 
 -   Streamlit-based research interface
-
 -   Threaded research sessions
-
 -   Exportable artifacts
-
 -   Evaluation harness for product-level testing
-
 -   Persistent logging and traceability
 
 * * * * *
@@ -124,15 +112,10 @@ What the Streamlit Portal Does
 ------------------------------
 
 -   Accepts natural-language research questions
-
 -   Retrieves top-k evidence chunks
-
 -   Generates grounded answers with structured citations
-
 -   Maintains threaded research sessions
-
 -   Logs retrieval and generation artifacts
-
 -   Supports exportable outputs
 
 * * * * *
@@ -163,9 +146,7 @@ Phase3/outputs/
 Contains:
 
 -   Exported responses
-
 -   Structured research outputs
-
 -   Generated artifacts
 
 * * * * *
@@ -178,11 +159,8 @@ Phase3/logs/
 Includes:
 
 -   Retrieval traces
-
 -   Generation outputs
-
 -   Prompt versions
-
 -   Evaluation runs
 
 * * * * *
@@ -247,27 +225,16 @@ FAISS index and embeddings built during ingestion.
 ==================================
 
 1.  PDF ingestion and cleaning
-
 2.  Section-aware chunking
-
 3.  Embedding with sentence-transformers
-
 4.  FAISS vector index
-
 5.  Top-k retrieval
-
 6.  Local LLM generation (Ollama)
-
 7.  Structured citations: (source_id, chunk_id)
-
 8.  Logging of:
-
     -   Query
-
     -   Retrieved chunks
-
     -   Prompt version
-
     -   Model output
 
 * * * * *
@@ -276,15 +243,10 @@ FAISS index and embeddings built during ingestion.
 ====================
 
 -   No fabricated citations allowed
-
 -   Strict abstention when insufficient evidence
-
 -   Structured citation enforcement
-
 -   Logged chunk IDs for traceability
-
 -   Citation regex validation in evaluation
-
 -   Versioned prompt control
 
 * * * * *
@@ -292,23 +254,90 @@ FAISS index and embeddings built during ingestion.
 📁 Full Repository Structure (Phases 2 + 3)
 ===========================================
 ```
-Phase2/\
-  run_phase2.py\
-  run_query.py\
-  data/\
-  src/\
-  logs/\
-  report/
-
-Phase3/\
-  app/\
-    app.py\
-  phase3_eval.py\
-  threads/\
-  snapshots/\
-  outputs/\
-  logs/\
-  README.md
+├── Jorge_Urias_Phase3_Report.pdf
+├── Phase1
+│   ├── AI_Usage
+│   │   ├── Phase1AIUsageDiscussion.pdf
+│   │   ├── Phase1AIUsageScoringDiscussion.pdf
+│   │   └── Phase1FullAIUsage.pdf
+│   ├── README.md
+│   ├── deliverables
+│   │   ├── Phase1_Evaluation_Test_Cases.csv
+│   │   ├── Phase1_Model_Evaluation.csv
+│   │   ├── Phase1_Prompt_Template.pdf
+│   │   └── Phase1_Research_Portal.pdf
+│   └── prompts
+│       ├── claim_evidence_extraction.md
+│       └── paper_triage.md
+├── Phase2
+│   ├── AI_Usage
+│   │   └── Phase2AIUsageDiscussion.pdf
+│   ├── AI_Usage.md
+│   ├── README.md
+│   ├── __pycache__
+│   │   └── run_query.cpython-313.pyc
+│   ├── data
+│   │   ├── data_manifest.csv
+│   │   ├── processed
+│   │   └── raw
+│   ├── docs
+│   │   └── JorgeUrias_Phase2_Report.pdf
+│   ├── extract_for_grading.py
+│   ├── logs
+│   │   ├── eval_runs
+│   │   ├── evaluation_results
+│   │   └── runs
+│   ├── run_phase2.py
+│   ├── run_query.py
+│   └── src
+│       ├── __init__.py
+│       ├── __pycache__
+│       ├── eval
+│       ├── ingest
+│       └── rag
+├── Phase3
+│   ├── README.md
+│   ├── app
+│   │   └── app.py
+│   ├── logs
+│   │   └── phase3_eval
+│   ├── outputs
+│   │   ├── artifacts
+│   │   └── exports
+│   ├── phase3_eval.py
+│   ├── snapshots
+│   │   ├── Screenshot 2026-03-01 at 10.43.49 PM.png
+│   │   ├── Screenshot 2026-03-01 at 11.06.48 PM.png
+│   │   ├── Screenshot 2026-03-01 at 11.07.01 PM.png
+│   │   ├── Screenshot 2026-03-01 at 11.07.15 PM.png
+│   │   ├── Screenshot 2026-03-01 at 11.08.25 PM.png
+│   │   └── Screenshot 2026-03-01 at 9.44.11 PM.png
+│   └── threads
+│       ├── 1305abff.json
+│       ├── 25304bcd.json
+│       ├── 36da15db.json
+│       ├── 4c41b85e.json
+│       ├── 5655720b.json
+│       ├── 60898815.json
+│       ├── 61f4f25f.json
+│       ├── 685ea13c.json
+│       ├── 6946031d.json
+│       ├── 741611ed.json
+│       ├── 7aef4a86.json
+│       ├── 80fd23c5.json
+│       ├── 81801b40.json
+│       ├── 8314b9c4.json
+│       ├── 8830f637.json
+│       ├── 8cc8495a.json
+│       ├── adfd9376.json
+│       ├── b2dc5454.json
+│       ├── bc558311.json
+│       └── ff01cc8c.json
+├── README.md
+├── logs
+│   └── runs
+│       └── v2-trust-tightened-qrewrite
+└── requirements.txt
 ```
 
 * * * * *
@@ -317,15 +346,10 @@ Phase3/\
 ========================
 
 -   All dependencies pinned
-
 -   Local LLM specified
-
 -   All evaluation runs logged
-
 -   Artifacts persisted to disk
-
 -   No external APIs required
-
 -   Fully reproducible on local machine
 
 * * * * *
@@ -336,9 +360,7 @@ Phase3/\
 If Streamlit does not launch:
 
 -   Ensure `.venv` is activated
-
 -   Ensure `requirements.txt` is installed
-
 -   Ensure Ollama is running
 
 If model fails:
@@ -355,17 +377,11 @@ Confirm `llama3` is installed.
 ========================
 
 -   Research-grade RAG system (Phase 2)
-
 -   Trust-enhanced RAG architecture
-
 -   Streamlit research portal (Phase 3)
-
 -   Evaluation harness (Phase 3)
-
 -   Logs and traceable artifacts
-
 -   Reports (Phase 2 + Phase 3)
-
 -   AI usage disclosure
 
 * * * * *
