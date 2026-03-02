@@ -384,6 +384,8 @@ Confirm `llama3` is installed.
 -   Reports (Phase 2 + Phase 3)
 -   AI usage disclosure
 
+**Demo video link can be found in `DemoVideo.txt` or at this link <https://screenapp.io/app/v/lcPfU-pHoW>**
+
 * * * * *
 
 📚 AI Usage Disclosure
