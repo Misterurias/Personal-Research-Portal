@@ -1,262 +1,388 @@
-# **Personal Research Portal (PRP) — AI Coding Assistant Impact Study**
+**Personal Research Portal (PRP) --- AI Coding Assistant Impact Study**
+=====================================================================
 
-Author: Jorge Urias  
-Course: AI Model Development  
-Phase: 2 — Ground the Research Domain  
+Author: Jorge Urias\
+Course: AI Model Development\
+Phases: 2 (Research-Grade RAG) + 3 (Research Portal Product)
 
----
+* * * * *
 
-# 📌 Research Domain
+📌 Research Domain
+==================
 
 Impact of AI coding assistants (e.g., GitHub Copilot, CodeWhisperer, ChatGPT) on:
 
-- Developer productivity
-- Code quality
-- Skill formation
-- Technical debt
-- Long-term maintainability
+-   Developer productivity
 
----
+-   Code quality
 
-# 🎯 Main Research Question
+-   Skill formation
+
+-   Technical debt
+
+-   Long-term maintainability
+
+* * * * *
+
+🎯 Main Research Question
+=========================
 
 > How do AI coding assistants affect productivity, code quality, and long-term software engineering outcomes?
 
----
+* * * * *
 
-# 🧠 Phase 2 Objective
+🧠 Phase Overview
+=================
 
-Build a **research-grade Retrieval-Augmented Generation (RAG)** system with:
+Phase 2 --- Research-Grade RAG
+----------------------------
 
-- Structured citations
-- Traceable chunk-level evidence
-- Logged retrieval + generation
-- Reproducible evaluation pipeline
-- Trust safeguards (no fabricated citations)
+-   Structured citations
 
----
+-   Traceable chunk-level evidence
 
-# 🚀 Quick Start (5-Minute Grader Path)
+-   Logged retrieval + generation
 
-## 1️⃣ Clone the Repository
+-   Reproducible evaluation pipeline
 
-```bash
-git clone <repo_url>
-cd Phase2
+-   Trust safeguards (no fabricated citations)
+
+Phase 3 --- Research Portal Product
+---------------------------------
+
+-   Streamlit-based research interface
+
+-   Threaded research sessions
+
+-   Exportable artifacts
+
+-   Evaluation harness for product-level testing
+
+-   Persistent logging and traceability
+
+* * * * *
+
+🚀 Full Project Setup (Grader Instructions)
+===========================================
+
+1️⃣ Clone Repository
+--------------------
 ```
-
-# 2️⃣ Create Python Environment
+git clone https://github.com/Misterurias/Personal-Research-Portal.git
+cd PersonalResearchProject
 ```
-python -m venv .venv
-source .venv/bin/activate
+* * * * *
+
+2️⃣ Create Python Environment
+-----------------------------
+```
+python -m venv .venv\
+source .venv/bin/activate\
 pip install -r requirements.txt
 ```
-
 All dependencies are pinned for reproducibility.
 
-# 3️⃣ Install Local LLM (Ollama Required)
+* * * * *
 
-This project uses a local LLM via Ollama for fully reproducible generation.
+3️⃣ Install Local LLM (Ollama Required)
+---------------------------------------
+
+This project uses a fully local LLM via Ollama for reproducible generation.
 
 Install Ollama:
-https://ollama.com
+
+<https://ollama.com>
 
 Pull the required model:
-
 ```
 ollama pull llama3
 ```
-
 Verify it works:
-
 ```
 ollama run llama3
 ```
-
 The system assumes Ollama is running at:
-
 ```
 http://localhost:11434
 ```
+* * * * *
 
-# 4️⃣ Run Full Evaluation Pipeline
+🖥️ Phase 3 --- Running the Research Portal (Streamlit App)
+=========================================================
+
+The main product interface is the Streamlit portal.
+
+From the project root:
 ```
-python run_phase2.py
+streamlit run Phase3/app/app.py
+```
+This launches the research portal in your browser.
+
+* * * * *
+
+What the Streamlit Portal Does
+------------------------------
+
+-   Accepts natural-language research questions
+
+-   Retrieves top-k evidence chunks
+
+-   Generates grounded answers with structured citations
+
+-   Maintains threaded research sessions
+
+-   Logs retrieval and generation artifacts
+
+-   Supports exportable outputs
+
+* * * * *
+
+📁 Where Phase 3 Artifacts Are Stored
+-------------------------------------
+
+### 🔹 Threads (Research Conversations)
+```
+Phase3/threads/
+```
+Each JSON file represents a saved research session.
+
+* * * * *
+
+### 🔹 Snapshots (UI or Research State Snapshots)
+```
+Phase3/snapshots/
+```
+Used for capturing reproducible portal states.
+
+* * * * *
+
+### 🔹 Outputs (Exports / Generated Artifacts)
+```
+Phase3/outputs/
+```
+Contains:
+
+-   Exported responses
+
+-   Structured research outputs
+
+-   Generated artifacts
+
+* * * * *
+
+### 🔹 Logs (Portal + Evaluation Logging)
+```
+Phase3/logs/
 ```
 
-This single command will:
+Includes:
 
-* Run all 20 evaluation queries
-* Retrieve top-k evidence chunks
-* Generate answers with structured citations
-* Save full logs
-* Score evaluation runs
-* Print summary metrics
+-   Retrieval traces
 
-# 📊 Evaluation Design
+-   Generation outputs
 
-Evaluation query set includes:
+-   Prompt versions
 
-* 10 Direct questions
-* 5 Synthesis (multi-hop) questions
-* 5 Edge / ambiguity cases
+-   Evaluation runs
 
-Metrics:
+* * * * *
 
-* Groundedness (1–4)
-* Citation correctness (1–4)
-* Usefulness (1–4)
+🧪 Phase 3 Evaluation Harness
+=============================
 
-Evaluation logs stored in:
+Phase 3 includes a product-level evaluation script.
+
+To run the full Phase 3 evaluation:
 
 ```
-logs/eval_runs/
-logs/evaluation_results/
+python Phase3/phase3_eval.py
 ```
+This script:
 
-# 🧾 Corpus
+-   Runs predefined evaluation questions
+-   Tests citation formatting
+-   Checks grounding behavior
+-   Logs outputs
+-   Stores evaluation artifacts
 
-The system uses 15–30 research sources including:
+* * * * *
 
-* Peer-reviewed papers
-* Technical reports
-* Empirical studies
-
-Each source includes required metadata:
-
-* source_id
-* title
-* authors
-* year
-* source_type
-* venue
-* url_or_doi
-* raw_path
-* processed_path
-* tags
-* relevance_note
-
-Metadata file:
+📊 Phase 3 Evaluation Logs Location
+-----------------------------------
 
 ```
-data/data_manifest.csv
+Phase3/logs/phase3_eval/
 ```
 
-Raw artifacts stored under:
+Each evaluation run is versioned by prompt version.
+
+* * * * *
+
+🧾 Corpus & Data (Phase 2 Foundation)
+=====================================
+
+Corpus metadata:
 
 ```
-data/raw/
+Phase2/data/data_manifest.csv
 ```
 
-# 🔍 RAG Architecture
+Raw research artifacts:
 
-**1.** Ingest PDFs → parse and clean
-
-**2.** Section-aware chunking
-
-**3.** Embedding using sentence-transformers
-
-**4.** FAISS vector index
-
-**5.** Top-k retrieval
-
-**6.** Local LLM generation (Ollama)
-
-**7.** Structured citations: (source_id, chunk_id)
-
-**8.** Logging of:
-
-* Query
-* Retrieved chunks
-* Prompt version
-* Model output
-
-# 🛡️ Trust Safeguards Implemented
-
-* No fabricated citations allowed
-* Strict abstention when insufficient evidence
-* Structured citation enforcement
-* Logged chunk IDs for traceability
-* Evaluation explicitly flags invalid citation patterns
-
-# 🔧 Enhancement Implemented (Phase 2 Requirement)
-
-Enhancement: Trust tightening + structured citation enforcement
-
-Improvements from baseline:
-
-* Reduced fabricated references
-* Stronger abstention on missing evidence
-* Citation format normalization
-* Evaluation pipeline automation
-
-📁 Repository Structure
 ```
-Phase2/
-  README.md
-  requirements.txt
-  AI_USAGE_LOG.md
-  run_query.py
-  run_phase2.py
-  data/
-    raw/
-    processed/
-    data_manifest.csv
-  src/
-    ingest/
-    rag/
-    eval/
-  logs/
-    eval_runs/
-    evaluation_results/
+Phase2/data/raw/
+```
+
+Processed chunks:
+
+```
+Phase2/data/processed/
+```
+
+FAISS index and embeddings built during ingestion.
+
+* * * * *
+
+🔍 RAG Architecture (Phases 2 & 3)
+==================================
+
+1.  PDF ingestion and cleaning
+
+2.  Section-aware chunking
+
+3.  Embedding with sentence-transformers
+
+4.  FAISS vector index
+
+5.  Top-k retrieval
+
+6.  Local LLM generation (Ollama)
+
+7.  Structured citations: (source_id, chunk_id)
+
+8.  Logging of:
+
+    -   Query
+
+    -   Retrieved chunks
+
+    -   Prompt version
+
+    -   Model output
+
+* * * * *
+
+🛡️ Trust Safeguards
+====================
+
+-   No fabricated citations allowed
+
+-   Strict abstention when insufficient evidence
+
+-   Structured citation enforcement
+
+-   Logged chunk IDs for traceability
+
+-   Citation regex validation in evaluation
+
+-   Versioned prompt control
+
+* * * * *
+
+📁 Full Repository Structure (Phases 2 + 3)
+===========================================
+```
+Phase2/\
+  run_phase2.py\
+  run_query.py\
+  data/\
+  src/\
+  logs/\
   report/
-    Phase2_Report.md
+
+Phase3/\
+  app/\
+    app.py\
+  phase3_eval.py\
+  threads/\
+  snapshots/\
+  outputs/\
+  logs/\
+  README.md
 ```
 
-# 🧪 Reproducibility Notes
+* * * * *
 
-* All Python dependencies pinned in `requirements.txt`
-* Local LLM specified and documented
-* All evaluation logs saved
-* Raw research artifacts stored locally
-* Single-command evaluation pipeline
+🧪 Reproducibility Notes
+========================
 
-# ⚠️ Common Failure Modes Addressed
+-   All dependencies pinned
 
-* Fabricated citations → prevented
-* Incorrect citation formatting → flagged
-* Overconfident answers → guarded
-* Missing evidence → explicit abstention
+-   Local LLM specified
 
-# 📄 Deliverables Included
+-   All evaluation runs logged
 
-* Baseline RAG implementation
-* Enhancement implementation
-* Data manifest
-* Evaluation logs (machine-readable)
-* Evaluation report (3–5 pages)
-* AI usage disclosure
-* Reproducible one-command pipeline
+-   Artifacts persisted to disk
 
-# 📚 AI Usage Disclosure
+-   No external APIs required
+
+-   Fully reproducible on local machine
+
+* * * * *
+
+⚠️ Common Issues
+================
+
+If Streamlit does not launch:
+
+-   Ensure `.venv` is activated
+
+-   Ensure `requirements.txt` is installed
+
+-   Ensure Ollama is running
+
+If model fails:
+
+```
+ollama list
+```
+
+Confirm `llama3` is installed.
+
+* * * * *
+
+📄 Deliverables Included
+========================
+
+-   Research-grade RAG system (Phase 2)
+
+-   Trust-enhanced RAG architecture
+
+-   Streamlit research portal (Phase 3)
+
+-   Evaluation harness (Phase 3)
+
+-   Logs and traceable artifacts
+
+-   Reports (Phase 2 + Phase 3)
+
+-   AI usage disclosure
+
+* * * * *
+
+📚 AI Usage Disclosure
+======================
 
 See:
 
-```AI_USAGE_LOG.md```
+```
+Phase2/AI_USAGE_LOG.md
+```
+* * * * *
 
-# 🏁 Phase 2 Acceptance Test Checklist
+👨‍💻 Author
+============
 
-* ✔ One command runs full evaluation
-* ✔ Answers contain structured citations
-* ✔ Citations resolve to real source text
-* ✔ Logs saved
-* ✔ At least one enhancement implemented
-* ✔ Evaluation report includes failure cases
-
-# 👨‍💻 Author
-
-Jorge Urias
-
-AI Model Development — Personal Research Portal Project
-
+Jorge Urias\
+AI Model Development --- Personal Research Portal\
 Carnegie Mellon University
