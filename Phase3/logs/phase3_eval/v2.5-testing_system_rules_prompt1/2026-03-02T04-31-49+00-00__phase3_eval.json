@@ -1,0 +1,454 @@
+{
+  "summary": {
+    "total_queries": 10,
+    "citation_valid_count": 10,
+    "reference_consistent_count": 0,
+    "insufficient_count": 0,
+    "citation_valid_rate": 1.0,
+    "reference_consistent_rate": 0.0,
+    "insufficient_rate": 0.0,
+    "prompt_version": "v2.5-testing_system_rules_prompt1"
+  },
+  "results": [
+    {
+      "id": "Q1",
+      "type": "productivity",
+      "query": "Does GitHub Copilot increase developer productivity?",
+      "answer": "Based on the provided evidence chunks, here are the answers:\n\n**Q:** How helpful did developers find GitHub Copilot as they worked on a task?\n**A:** According to [CopilotExperiment2023_chunk_004 | CopilotExperiment2023], most participants found GitHub Copilot to be very helpful (95% of treated group).\n\n**Q:** Did using GitHub Copilot increase productivity in software development?\n**A:** Yes, according to [CopilotExperiment2023_chunk_006 | CopilotExperiment2023], the treated group that had access to GitHub Copilot was able to complete a task 55.8% faster than the control group.\n\n**Q:** Were there any heterogeneous treatment effects identified in the study?\n**A:** Yes, according to [CopilotExperiment2023_chunk_006 | CopilotExperiment2023], the results suggest that less experienced programmers benefit more from using GitHub Copilot.\n\n**Q:** Did the study examine the effects of AI on code quality?\n**A:** No, according to [CopilotExperiment2023_chunk_008 | CopilotExperiment2023], the study did not examine the effects of AI on code quality.",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_006",
+          "rank": 1
+        },
+        {
+          "source_id": "CopilotCACM2022",
+          "chunk_id": "CopilotCACM2022_chunk_001",
+          "rank": 2
+        },
+        {
+          "source_id": "NoviceProgramming2024",
+          "chunk_id": "NoviceProgramming2024_chunk_024",
+          "rank": 3
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_002",
+          "rank": 4
+        },
+        {
+          "source_id": "CopilotExperiment2023",
+          "chunk_id": "CopilotExperiment2023_chunk_004",
+          "rank": 5
+        },
+        {
+          "source_id": "CopilotExperiment2023",
+          "chunk_id": "CopilotExperiment2023_chunk_006",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q2",
+      "type": "productivity",
+      "query": "What empirical evidence measures productivity gains from AI coding tools?",
+      "answer": "I can only answer based on the provided evidence chunks.",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_015",
+          "rank": 1
+        },
+        {
+          "source_id": "EnterpriseImpact2024",
+          "chunk_id": "EnterpriseImpact2024_chunk_004",
+          "rank": 2
+        },
+        {
+          "source_id": "CopilotExperiment2023",
+          "chunk_id": "CopilotExperiment2023_chunk_001",
+          "rank": 3
+        },
+        {
+          "source_id": "CopilotCACM2022",
+          "chunk_id": "CopilotCACM2022_chunk_001",
+          "rank": 4
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_006",
+          "rank": 5
+        },
+        {
+          "source_id": "OpenSourceImpact2024",
+          "chunk_id": "OpenSourceImpact2024_chunk_006",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q3",
+      "type": "productivity",
+      "query": "How do AI coding assistants affect task completion time?",
+      "answer": "According to the provided evidence chunks, the following statements are supported:\n\n1. Participants in the AI condition completed the task faster than those in the No AI condition (chunk 5).\n2. There was no notable difference between groups that typed vs directly pasted AI output in terms of quiz score, suggesting that spending more time manually typing may not yield better conceptual understanding (chunk 6.2).\n3. The way participants encountered and resolved errors was notably different between the treatment and control conditions (chunk 6.2).\n4. The largest score gap occurs in debugging questions, while the smallest score gap is found in code reading questions (chunk 8).\n\nNote that these statements are based on the provided evidence chunks and may not represent the entire study or its findings.",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_018",
+          "rank": 1
+        },
+        {
+          "source_id": "CopilotCACM2022",
+          "chunk_id": "CopilotCACM2022_chunk_001",
+          "rank": 2
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_024",
+          "rank": 3
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_014",
+          "rank": 4
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_020",
+          "rank": 5
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_007",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q4",
+      "type": "quality",
+      "query": "What impact do AI coding assistants have on code quality?",
+      "answer": "I'll only answer based on the provided evidence chunks. Please provide the chunk you'd like me to respond to, and I'll do my best to assist you.",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "EnterpriseImpact2024",
+          "chunk_id": "EnterpriseImpact2024_chunk_023",
+          "rank": 1
+        },
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_001",
+          "rank": 2
+        },
+        {
+          "source_id": "EnterpriseImpact2024",
+          "chunk_id": "EnterpriseImpact2024_chunk_001",
+          "rank": 3
+        },
+        {
+          "source_id": "CodeQualityComparison2023",
+          "chunk_id": "CodeQualityComparison2023_chunk_001",
+          "rank": 4
+        },
+        {
+          "source_id": "DevExperienceGenAI2025",
+          "chunk_id": "DevExperienceGenAI2025_chunk_028",
+          "rank": 5
+        },
+        {
+          "source_id": "EnterpriseImpact2024",
+          "chunk_id": "EnterpriseImpact2024_chunk_003",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q5",
+      "type": "quality",
+      "query": "What quality metrics are used to evaluate AI-generated code?",
+      "answer": "According to the provided evidence chunks, here are the answers:\n\n**Code quality:**\n* GitHub Copilot's code generation quality was assessed in [46] and found to be of varying quality.\n* An empirical study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT found that the use of AI-assisted code generation tools leads to a 31.4% increase in average developer productivity, but also introduces 23.7% more security vulnerabilities [47].\n\n**Security:**\n* The same empirical study found that the use of AI-assisted code generation tools increases cyclomatic complexity by 14.6%, while maintainability went up 18.2%.\n* CodeGeeX, a pre-trained model for code generation, was benchmarked on HumanEval-X and found to have multilingual capabilities [48].\n\n**Productivity:**\n* A study on neural code completion found that it can improve developer productivity [49].\n* The same empirical study mentioned earlier found that the use of AI-assisted code generation tools leads to a 31.4% increase in average developer productivity.\n\nPlease note that these answers are based solely on the provided evidence chunks and may not represent the entire scope of research or findings in the field.",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "CodeQualityComparison2023",
+          "chunk_id": "CodeQualityComparison2023_chunk_001",
+          "rank": 1
+        },
+        {
+          "source_id": "CodeQualityComparison2023",
+          "chunk_id": "CodeQualityComparison2023_chunk_003",
+          "rank": 2
+        },
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_004",
+          "rank": 3
+        },
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_001",
+          "rank": 4
+        },
+        {
+          "source_id": "AIReview2025",
+          "chunk_id": "AIReview2025_chunk_001",
+          "rank": 5
+        },
+        {
+          "source_id": "DevExperienceGenAI2025",
+          "chunk_id": "DevExperienceGenAI2025_chunk_028",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q6",
+      "type": "quality",
+      "query": "Is AI-assisted code more error-prone than human-written code?",
+      "answer": "I can only answer based on the provided evidence chunks.",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "CopilotCACM2022",
+          "chunk_id": "CopilotCACM2022_chunk_017",
+          "rank": 1
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_020",
+          "rank": 2
+        },
+        {
+          "source_id": "ExpectationVsExperience2022",
+          "chunk_id": "ExpectationVsExperience2022_chunk_005",
+          "rank": 3
+        },
+        {
+          "source_id": "EnterpriseImpact2024",
+          "chunk_id": "EnterpriseImpact2024_chunk_023",
+          "rank": 4
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_008",
+          "rank": 5
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_002",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q7",
+      "type": "technical_debt",
+      "query": "What evidence links AI coding tools to technical debt accumulation?",
+      "answer": "According to the provided evidence chunks, here are some answers:\n\n**1. What is the impact of AI-assisted programming on software maintenance?**\n\nAI-assisted programming amplifies software maintenance challenges, especially for core contributors who bear responsibility for code review and integration. As a result, maintainers are compelled to reallocate their time toward reviewing and managing code submissions instead of writing new code.\n\n**2. How does AI-assisted programming affect the workload distribution in OSS communities?**\n\nAI-assisted programming increases the burden on core contributors, who take on the maintenance-related tasks in the project. This results in a redistribution of effort within OSS communities, with maintainers facing higher review workloads and a concomitant decline in their own development activity.\n\n**3. What is the relationship between AI-assisted programming and technical debt?**\n\nAI-assisted programming introduces code that is difficult to integrate, extend, or refactor, accelerating the accumulation of technical debt. The shortcuts enabled by AI tools may accelerate output while introducing latent liabilities for projects, requiring substantial effort to review, revise, or rewrite code later.\n\n**4. How does AI-assisted programming affect the learning implications in OSS settings?**\n\nAI-assisted development can weaken the feedback loop between contribution and learning, as peripheral contributors may engage less deeply with underlying programming principles and best practices, resulting in code that is functional but brittle.",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_008",
+          "rank": 1
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_028",
+          "rank": 2
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_009",
+          "rank": 3
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_026",
+          "rank": 4
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_031",
+          "rank": 5
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_027",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q8",
+      "type": "technical_debt",
+      "query": "Do AI coding assistants increase long-term maintenance burden?",
+      "answer": "Based on the provided evidence chunks, I can only answer questions that are directly addressed in these chunks. I will not provide any answers that go beyond what is presented here.\n\nIf you have specific questions or would like me to summarize the information contained within the evidence chunks, please let me know and I'll be happy to assist you!",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_027",
+          "rank": 1
+        },
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_013",
+          "rank": 2
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_004",
+          "rank": 3
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_002",
+          "rank": 4
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_009",
+          "rank": 5
+        },
+        {
+          "source_id": "AIProdDecrease2024",
+          "chunk_id": "AIProdDecrease2024_chunk_006",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q9",
+      "type": "experience",
+      "query": "How do AI coding tools affect junior versus senior developers?",
+      "answer": "According to the provided evidence chunks, I can only answer questions based on the information presented in those chunks.\n\nPlease note that I will not be able to provide answers outside of the scope of the provided evidence. If you have any specific questions related to the evidence, feel free to ask!",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+          "rank": 1
+        },
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_014",
+          "rank": 2
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_006",
+          "rank": 3
+        },
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_002",
+          "rank": 4
+        },
+        {
+          "source_id": "NoviceProgramming2024",
+          "chunk_id": "NoviceProgramming2024_chunk_001",
+          "rank": 5
+        },
+        {
+          "source_id": "OpenSourceImpact2024",
+          "chunk_id": "OpenSourceImpact2024_chunk_029",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    },
+    {
+      "id": "Q10",
+      "type": "experience",
+      "query": "Are experienced developers more effective when using AI assistants?",
+      "answer": "I'll only answer based on the provided evidence chunks.\n\nPlease provide the specific question or topic you'd like me to address using ONLY the text from the evidence chunks. I won't make any assumptions or generalize beyond what's provided in the text.",
+      "inline_citations": [],
+      "references_section_raw": null,
+      "citations_valid": true,
+      "references_consistent": false,
+      "insufficient": false,
+      "retrieved_chunks": [
+        {
+          "source_id": "CopilotExperiment2023",
+          "chunk_id": "CopilotExperiment2023_chunk_001",
+          "rank": 1
+        },
+        {
+          "source_id": "EmpiricalToolAnalysis2025",
+          "chunk_id": "EmpiricalToolAnalysis2025_chunk_010",
+          "rank": 2
+        },
+        {
+          "source_id": "DevExperienceGenAI2025",
+          "chunk_id": "DevExperienceGenAI2025_chunk_004",
+          "rank": 3
+        },
+        {
+          "source_id": "EnterpriseImpact2024",
+          "chunk_id": "EnterpriseImpact2024_chunk_001",
+          "rank": 4
+        },
+        {
+          "source_id": "OpenSourceImpact2024",
+          "chunk_id": "OpenSourceImpact2024_chunk_006",
+          "rank": 5
+        },
+        {
+          "source_id": "SkillFormation2026",
+          "chunk_id": "SkillFormation2026_chunk_004",
+          "rank": 6
+        }
+      ],
+      "prompt_version": "v2.5-testing_system_rules_prompt1"
+    }
+  ]
+}

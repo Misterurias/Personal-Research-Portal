@@ -1,0 +1,33 @@
+claim,evidence_snippet,citation,confidence,notes
+What risks or limitations of AI-assisted code generation are documented in the corpus?,"olve actual programming tasks in different languages and varying degrees of complexity, professional 
+developers of different skill and experience levels. Our assumption is that although the use of AI-assisted 
+tools will increase productivity, at th...","(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_003)",Med,Retrieved supporting chunk
+What risks or limitations of AI-assisted code generation are documented in the corpus?," vs. experience: Evaluating the usability of code generation tools
+powered by large language models. In Chi conference on human factors in computing systems extended abstracts. 1–7.
+[51] Dakuo Wang, Justin D Weisz, Michael Muller, Parikshit Ram, Wern...","(EnterpriseImpact2024, EnterpriseImpact2024_chunk_023)",Med,Retrieved supporting chunk
+What risks or limitations of AI-assisted code generation are documented in the corpus?," assistants can aid sensemaking tasks in code repositories.
+• We identify a shared responsibility between people and AI systems in mitigating the risks of generated outputs.
+2
+Related Work
+We outline three areas relevant to our study of AI code assis...","(EnterpriseImpact2024, EnterpriseImpact2024_chunk_003)",Med,Retrieved supporting chunk
+What risks or limitations of AI-assisted code generation are documented in the corpus?,"Noname manuscript No.
+(will be inserted by the editor)
+Evaluating the Code Quality of AI-Assisted Code
+Generation Tools: An Empirical Study on GitHub Copilot,
+Amazon CodeWhisperer, and ChatGPT
+Burak Yetiştiren · Işık Özsoy · Miray
+Ayerdem · Eray Tüzü...","(CodeQualityComparison2023, CodeQualityComparison2023_chunk_001)",Med,Retrieved supporting chunk
+What risks or limitations of AI-assisted code generation are documented in the corpus?,"236 
+A Review of Research on AI-Assisted Code Generation and AI-
+Driven Code Review 
+Yuzhi Wang 
+Beijing University of Technology, Beijing, China 
+shenrenaisite@yeah.net 
+Abstract. With the significant breakthroughs of deep learning technologies such...","(AIReview2025, AIReview2025_chunk_001)",Med,Retrieved supporting chunk
+What risks or limitations of AI-assisted code generation are documented in the corpus?," 23.7% and a total increase in critical severity of 89%. We also demonstrate 
+that some dimensions of code quality are improved with AI-assisted code generation tools (i.e., 
+maintainability, cyclomatic complexity) but caution is warranted with opera...","(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_014)",Med,Retrieved supporting chunk
+What risks or limitations of AI-assisted code generation are documented in the corpus?," code 
+generation tools, which are based on huge language models that have been trained with billions of lines 
+of code, have been identified as the most powerful of the innovative technologies that will significantly 
+contribute to the developer's p...","(EmpiricalToolAnalysis2025, EmpiricalToolAnalysis2025_chunk_002)",Med,Retrieved supporting chunk
